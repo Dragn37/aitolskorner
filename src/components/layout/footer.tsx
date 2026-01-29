@@ -11,7 +11,7 @@ const FooterLink = ({
   <li>
     <Link
       href={href}
-      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+      className="text-muted-foreground hover:text-foreground transition-colors"
     >
       {children}
     </Link>
@@ -23,26 +23,58 @@ export function Footer() {
 
   return (
     <footer className="border-t bg-background">
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-4">
-            <Link href="/" className="inline-block">
-              <Logo className="h-6 w-auto" />
+      <div className="container mx-auto px-4 py-12 md:py-16">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+          <div className="lg:col-span-1">
+            <Link href="/" className="inline-block mb-4">
+              <Logo className="h-7 w-auto" />
             </Link>
-            <p className="text-sm text-muted-foreground hidden sm:block">
-              &copy; {currentYear} AI Tools Korner. All rights reserved.
+            <p className="max-w-xs text-sm text-muted-foreground">
+              Curated AI tools and insights. No hype. Just signal.
             </p>
           </div>
-          <nav>
-            <ul className="flex items-center gap-6">
-              <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
-              <FooterLink href="/terms-and-conditions">
-                Terms of Service
-              </FooterLink>
-              <FooterLink href="/contact">Contact</FooterLink>
-            </ul>
-          </nav>
-          <p className="text-sm text-muted-foreground sm:hidden">
+
+          <div className="grid grid-cols-2 gap-8 lg:col-span-3 lg:grid-cols-3">
+            <div>
+              <h3 className="font-headline font-semibold text-foreground mb-4">
+                Explore
+              </h3>
+              <ul className="space-y-3">
+                <FooterLink href="/tools">Tools</FooterLink>
+                <FooterLink href="/categories">Categories</FooterLink>
+                <FooterLink href="/trending">Trending</FooterLink>
+                <FooterLink href="/articles">Articles</FooterLink>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-headline font-semibold text-foreground mb-4">
+                Company
+              </h3>
+              <ul className="space-y-3">
+                <FooterLink href="/about">About</FooterLink>
+                <FooterLink href="/contact">Contact</FooterLink>
+                <FooterLink href="/submit-tool">Submit a Tool</FooterLink>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-headline font-semibold text-foreground mb-4">
+                Legal
+              </h3>
+              <ul className="space-y-3">
+                <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
+                <FooterLink href="/terms-and-conditions">
+                  Terms & Conditions
+                </FooterLink>
+                <FooterLink href="/affiliate-disclosure">
+                  Affiliate Disclosure
+                </FooterLink>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-12 border-t pt-8">
+          <p className="text-sm text-muted-foreground text-center">
             &copy; {currentYear} AI Tools Korner. All rights reserved.
           </p>
         </div>
