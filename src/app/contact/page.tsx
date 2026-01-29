@@ -26,10 +26,10 @@ export default function ContactPage() {
           </p>
           <p className="text-center">
             <a
-              href="mailto:contact@aitoolskorner.com"
+              href="mailto:aitoolskorner@proton.me"
               className="text-primary text-xl font-bold"
             >
-              contact@aitoolskorner.com
+              aitoolskorner@proton.me
             </a>
           </p>
           <p>

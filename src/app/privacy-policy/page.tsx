@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-bold font-headline">Contact Us</h2>
           <p>
             If you have questions or comments about this Privacy Policy, please
-            contact us at: contact@aitoolskorner.com
+            contact us at: aitoolskorner@proton.me
           </p>
         </div>
       </div>

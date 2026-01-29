@@ -133,7 +133,7 @@ export default function RootLayout({
               contactPoint: {
                 '@type': 'ContactPoint',
                 contactType: 'Customer Support',
-                email: 'contact@aitoolskorner.com',
+                email: 'aitoolskorner@proton.me',
                 url: 'https://www.aitolskorner.com/contact',
               },
             }),
