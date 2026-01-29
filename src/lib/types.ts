@@ -2,8 +2,12 @@ export type ToolCategory =
   | 'Writing'
   | 'Image'
   | 'Video'
+  | 'Audio'
   | 'Coding'
-  | 'Productivity';
+  | 'Productivity'
+  | 'Marketing'
+  | 'Business'
+  | 'SEO';
 
 export interface Tool {
   id: string;
@@ -15,6 +19,7 @@ export interface Tool {
   trending?: boolean;
   logoUrlId: string;
   website: string;
+  useCases?: string[];
 }
 
 export interface Article {
@@ -26,4 +31,16 @@ export interface Article {
   author: string;
   imageUrlId: string;
   content: string;
+}
+
+export interface Category {
+  slug: string;
+  name: ToolCategory;
+  description: string;
+}
+
+export interface UseCase {
+  slug: string;
+  name: string;
+  description: string;
 }

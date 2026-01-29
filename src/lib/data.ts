@@ -1,4 +1,24 @@
-import type { Tool, Article } from './types';
+import type { Tool, Article, ToolCategory, Category, UseCase } from './types';
+
+const CATEGORIES: Category[] = [
+  { slug: 'writing', name: 'Writing', description: 'Tools to assist with writing, editing, and content creation.' },
+  { slug: 'image', name: 'Image', description: 'Generate, edit, and enhance images with AI.' },
+  { slug: 'video', name: 'Video', description: 'Create and edit videos with AI-powered features.' },
+  { slug: 'audio', name: 'Audio', description: 'Tools for audio generation, editing, and transcription.' },
+  { slug: 'coding', name: 'Coding', description: 'AI assistants for writing and debugging code.' },
+  { slug: 'productivity', name: 'Productivity', description: 'Boost your efficiency and organization.' },
+  { slug: 'marketing', name: 'Marketing', description: 'AI tools for marketing, SEO, and social media.' },
+  { slug: 'business', name: 'Business', description: 'Solutions for business intelligence and operations.' },
+  { slug: 'seo', name: 'SEO', description: 'Optimize your content for search engines.' },
+];
+
+const USE_CASES: UseCase[] = [
+  { slug: 'writers', name: 'Writers', description: 'Enhance your writing process and creativity.' },
+  { slug: 'students', name: 'Students', description: 'Tools for research, studying, and assignments.' },
+  { slug: 'creators', name: 'Creators', description: 'For content creators, artists, and designers.' },
+  { slug: 'startups', name: 'Startups', description: 'Scale your business with AI-powered solutions.' },
+  { slug: 'developers', name: 'Developers', description: 'Code faster and smarter with AI assistants.' },
+];
 
 const tools: Tool[] = [
   {
@@ -12,6 +32,7 @@ const tools: Tool[] = [
     trending: true,
     logoUrlId: 'tool-logo-1',
     website: 'https://example.com/scribe-ai',
+    useCases: ['writers', 'students', 'creators', 'marketing'],
   },
   {
     id: '2',
@@ -24,6 +45,7 @@ const tools: Tool[] = [
     trending: true,
     logoUrlId: 'tool-logo-2',
     website: 'https://example.com/pixel-perfect',
+    useCases: ['creators', 'marketing'],
   },
   {
     id: '3',
@@ -35,6 +57,7 @@ const tools: Tool[] = [
     category: 'Video',
     logoUrlId: 'tool-logo-3',
     website: 'https://example.com/cinemator',
+    useCases: ['creators', 'marketing'],
   },
   {
     id: '4',
@@ -47,6 +70,7 @@ const tools: Tool[] = [
     trending: true,
     logoUrlId: 'tool-logo-4',
     website: 'https://example.com/codepilot',
+    useCases: ['developers', 'startups'],
   },
   {
     id: '5',
@@ -58,6 +82,7 @@ const tools: Tool[] = [
     category: 'Productivity',
     logoUrlId: 'tool-logo-5',
     website: 'https://example.com/taskmaster',
+    useCases: ['students', 'startups', 'developers', 'writers'],
   },
   {
     id: '6',
@@ -67,8 +92,35 @@ const tools: Tool[] = [
     longDescription:
       'Enhance your focus sessions with FocusFlow. Our AI learns your work patterns and suggests optimal break times. It can also block distracting websites to keep you on track. Achieve deep work and boost your productivity.',
     category: 'Productivity',
+    trending: true,
     logoUrlId: 'tool-logo-6',
     website: 'https://example.com/focusflow',
+    useCases: ['students', 'developers', 'writers'],
+  },
+  {
+    id: '7',
+    slug: 'sound-weaver',
+    name: 'SoundWeaver',
+    description: 'Compose unique, royalty-free music with AI.',
+    longDescription:
+      'SoundWeaver is an AI music composer that generates original music in various genres and moods. It\'s perfect for video creators, podcasters, and game developers who need custom soundtracks without copyright issues.',
+    category: 'Audio',
+    logoUrlId: 'tool-logo-1', // Placeholder
+    website: 'https://example.com/soundweaver',
+    useCases: ['creators', 'developers'],
+  },
+  {
+    id: '8',
+    slug: 'market-muse-ai',
+    name: 'MarketMuse AI',
+    description: 'AI-powered content strategy and SEO optimization tool.',
+    longDescription:
+      'MarketMuse AI analyzes your content and provides data-driven insights to improve your search engine rankings. It helps you identify content gaps, optimize articles, and build a winning content strategy.',
+    category: 'Marketing',
+    trending: true,
+    logoUrlId: 'tool-logo-2', // Placeholder
+    website: 'https://example.com/market-muse-ai',
+    useCases: ['marketing', 'seo', 'writers', 'startups'],
   },
 ];
 
@@ -159,4 +211,28 @@ export function getLatestArticles(count: number): Article[] {
   return [...articles]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, count);
+}
+
+export function getAllCategories(): Category[] {
+  return CATEGORIES;
+}
+
+export function getCategoryBySlug(slug: string): Category | undefined {
+  return CATEGORIES.find((cat) => cat.slug === slug);
+}
+
+export function getToolsByCategory(category: ToolCategory): Tool[] {
+  return tools.filter((tool) => tool.category === category);
+}
+
+export function getAllUseCases(): UseCase[] {
+  return USE_CASES;
+}
+
+export function getUseCaseBySlug(slug: string): UseCase | undefined {
+  return USE_CASES.find((uc) => uc.slug === slug);
+}
+
+export function getToolsByUseCase(useCaseSlug: string): Tool[] {
+  return tools.filter((tool) => tool.useCases?.includes(useCaseSlug));
 }

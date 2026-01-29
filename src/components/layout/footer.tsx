@@ -7,24 +7,35 @@ export function Footer() {
   return (
     <footer className="border-t">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+          <div className="flex justify-center md:justify-start">
             <Link href="/">
               <Logo className="h-6 w-auto" />
             </Link>
           </div>
-          <div className="text-center text-sm text-muted-foreground mb-4 md:mb-0">
+          
+          <div className="text-center text-sm text-muted-foreground">
             <p>&copy; {currentYear} AI Tools Korner. All rights reserved.</p>
           </div>
-          <div className="flex space-x-4">
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
+
+          <div className="flex justify-center md:justify-end flex-wrap gap-x-4 gap-y-2 text-sm">
+            <Link href="/about" className="text-muted-foreground hover:text-foreground">
+              About
+            </Link>
+            <Link href="/contact" className="text-muted-foreground hover:text-foreground">
+              Contact
+            </Link>
+            <Link href="/privacy-policy" className="text-muted-foreground hover:text-foreground">
               Privacy
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
+            <Link href="/terms-and-conditions" className="text-muted-foreground hover:text-foreground">
               Terms
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
-              Contact
+            <Link href="/affiliate-disclosure" className="text-muted-foreground hover:text-foreground">
+              Disclosure
+            </Link>
+            <Link href="/sitemap" className="text-muted-foreground hover:text-foreground">
+              Sitemap
             </Link>
           </div>
         </div>

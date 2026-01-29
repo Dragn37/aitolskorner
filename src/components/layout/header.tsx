@@ -2,17 +2,18 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu } from 'lucide-react';
+import { Menu, PlusCircle } from 'lucide-react';
+import { useState } from 'react';
 
 import { Logo } from '@/components/icons';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { useState } from 'react';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
   { href: '/tools', label: 'Tools' },
+  { href: '/categories', label: 'Categories' },
+  { href: '/trending', label: 'Trending' },
   { href: '/articles', label: 'Articles' },
 ];
 
@@ -20,15 +21,24 @@ export function Header() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const NavLink = ({ href, label }: { href: string; label: string }) => {
+  const NavLink = ({
+    href,
+    label,
+    isMobile = false,
+  }: {
+    href: string;
+    label: string;
+    isMobile?: boolean;
+  }) => {
     const isActive =
       href === '/' ? pathname === href : pathname.startsWith(href);
     return (
       <Link
         href={href}
         className={cn(
-          'text-lg font-medium text-muted-foreground transition-colors hover:text-foreground',
-          isActive && 'text-foreground'
+          'font-medium text-muted-foreground transition-colors hover:text-foreground',
+          isActive && 'text-foreground',
+          isMobile ? 'text-lg' : 'text-sm'
         )}
         onClick={() => setMobileMenuOpen(false)}
       >
@@ -51,8 +61,7 @@ export function Header() {
           </nav>
         </div>
 
-        <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-          <div className="md:hidden">
+        <div className="md:hidden">
             <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
@@ -69,23 +78,28 @@ export function Header() {
                   <Logo />
                 </Link>
                 <div className="flex flex-col space-y-6">
+                  <NavLink href="/" label="Home" isMobile />
                   {navLinks.map((link) => (
-                    <NavLink key={link.href} {...link} />
+                    <NavLink key={link.href} {...link} isMobile />
                   ))}
                 </div>
               </SheetContent>
             </Sheet>
           </div>
 
+        <div className="flex flex-1 items-center justify-center md:justify-end">
           <div className="flex-1 md:hidden">
             <Link href="/" className="flex items-center justify-center">
               <Logo />
             </Link>
           </div>
-
-          <nav className="flex items-center">
-            {/* Additional nav items like Login can go here */}
-          </nav>
+          
+          <Button asChild>
+            <Link href="/submit-tool">
+              <PlusCircle className="mr-2" />
+              Submit Tool
+            </Link>
+          </Button>
         </div>
       </div>
     </header>
