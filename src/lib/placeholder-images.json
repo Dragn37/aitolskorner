@@ -1,40 +1,148 @@
 {
   "placeholderImages": [
     {
-      "id": "tool-logo-1",
-      "description": "Logo for a writing AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1757007235665-928595c0c135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMHF1aWxsfGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract quill"
+      "id": "logo-chatgpt",
+      "description": "ChatGPT logo",
+      "imageUrl": "https://logo.clearbit.com/openai.com",
+      "imageHint": "chatgpt logo"
     },
     {
-      "id": "tool-logo-2",
-      "description": "Logo for an image generation AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1593704212686-6d52058fb516?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYW1lcmElMjBsZW5zfGVufDB8fHx8MTc2OTYxODI5MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "camera lens"
+      "id": "logo-claude",
+      "description": "Claude logo",
+      "imageUrl": "https://logo.clearbit.com/anthropic.com",
+      "imageHint": "claude logo"
     },
     {
-      "id": "tool-logo-3",
-      "description": "Logo for a video creation AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1694878981885-7647baf0d957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGF5JTIwYnV0dG9ufGVufDB8fHx8MTc2OTU4ODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "play button"
+      "id": "logo-jasper",
+      "description": "Jasper AI logo",
+      "imageUrl": "https://logo.clearbit.com/jasper.ai",
+      "imageHint": "jasper logo"
     },
     {
-      "id": "tool-logo-4",
-      "description": "Logo for a coding assistant AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1584188335984-7781d3194e03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlJTIwYnJhY2tldHN8ZW58MHx8fHwxNzY5NjgxODM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "code brackets"
+      "id": "logo-copy-ai",
+      "description": "Copy.ai logo",
+      "imageUrl": "https://logo.clearbit.com/copy.ai",
+      "imageHint": "copy.ai logo"
     },
     {
-      "id": "tool-logo-5",
-      "description": "Logo for a productivity AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1754548930574-6a995e5eb5a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVja2xpc3QlMjBpY29ufGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "checklist icon"
+      "id": "logo-perplexity",
+      "description": "Perplexity AI logo",
+      "imageUrl": "https://logo.clearbit.com/perplexity.ai",
+      "imageHint": "perplexity logo"
     },
     {
-      "id": "tool-logo-6",
-      "description": "Logo for another productivity AI tool",
-      "imageUrl": "https://images.unsplash.com/photo-1694693715872-c25db9203075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2FsZW5kYXIlMjBpY29ufGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "calendar icon"
+      "id": "logo-midjourney",
+      "description": "Midjourney logo",
+      "imageUrl": "https://logo.clearbit.com/midjourney.com",
+      "imageHint": "midjourney logo"
+    },
+    {
+      "id": "logo-dall-e-3",
+      "description": "DALL-E 3 logo",
+      "imageUrl": "https://logo.clearbit.com/openai.com",
+      "imageHint": "dall-e logo"
+    },
+    {
+      "id": "logo-canva",
+      "description": "Canva logo",
+      "imageUrl": "https://logo.clearbit.com/canva.com",
+      "imageHint": "canva logo"
+    },
+    {
+      "id": "logo-stable-diffusion",
+      "description": "Stable Diffusion logo",
+      "imageUrl": "https://logo.clearbit.com/stability.ai",
+      "imageHint": "stability ai logo"
+    },
+    {
+      "id": "logo-github-copilot",
+      "description": "GitHub Copilot logo",
+      "imageUrl": "https://logo.clearbit.com/github.com",
+      "imageHint": "github copilot logo"
+    },
+    {
+      "id": "logo-cursor",
+      "description": "Cursor logo",
+      "imageUrl": "https://logo.clearbit.com/cursor.so",
+      "imageHint": "cursor logo"
+    },
+    {
+      "id": "logo-bolt-new",
+      "description": "Bolt.new logo",
+      "imageUrl": "https://logo.clearbit.com/stackblitz.com",
+      "imageHint": "bolt logo"
+    },
+    {
+      "id": "logo-v0",
+      "description": "v0 by Vercel logo",
+      "imageUrl": "https://logo.clearbit.com/vercel.com",
+      "imageHint": "v0 logo"
+    },
+    {
+      "id": "logo-replit",
+      "description": "Replit logo",
+      "imageUrl": "https://logo.clearbit.com/replit.com",
+      "imageHint": "replit logo"
+    },
+    {
+      "id": "logo-notion",
+      "description": "Notion logo",
+      "imageUrl": "https://logo.clearbit.com/notion.so",
+      "imageHint": "notion logo"
+    },
+    {
+      "id": "logo-gamma",
+      "description": "Gamma logo",
+      "imageUrl": "https://logo.clearbit.com/gamma.app",
+      "imageHint": "gamma logo"
+    },
+    {
+      "id": "logo-descript",
+      "description": "Descript logo",
+      "imageUrl": "https://logo.clearbit.com/descript.com",
+      "imageHint": "descript logo"
+    },
+    {
+      "id": "logo-google-ai",
+      "description": "Google AI Studio logo",
+      "imageUrl": "https://logo.clearbit.com/google.com",
+      "imageHint": "google ai logo"
+    },
+    {
+      "id": "logo-hugging-face",
+      "description": "Hugging Face logo",
+      "imageUrl": "https://logo.clearbit.com/huggingface.co",
+      "imageHint": "hugging face logo"
+    },
+    {
+      "id": "logo-vercel",
+      "description": "Vercel logo",
+      "imageUrl": "https://logo.clearbit.com/vercel.com",
+      "imageHint": "vercel logo"
+    },
+    {
+      "id": "logo-netlify",
+      "description": "Netlify logo",
+      "imageUrl": "https://logo.clearbit.com/netlify.com",
+      "imageHint": "netlify logo"
+    },
+    {
+      "id": "logo-runwayml",
+      "description": "Runway logo",
+      "imageUrl": "https://logo.clearbit.com/runwayml.com",
+      "imageHint": "runway logo"
+    },
+    {
+      "id": "logo-elevenlabs",
+      "description": "ElevenLabs logo",
+      "imageUrl": "https://logo.clearbit.com/elevenlabs.io",
+      "imageHint": "elevenlabs logo"
+    },
+    {
+      "id": "logo-suno",
+      "description": "Suno logo",
+      "imageUrl": "https://logo.clearbit.com/suno.ai",
+      "imageHint": "suno logo"
     },
     {
       "id": "article-image-1",

@@ -7,7 +7,16 @@ export type ToolCategory =
   | 'Productivity'
   | 'Marketing'
   | 'Business'
-  | 'SEO';
+  | 'SEO'
+  | 'Chatbot'
+  | 'Design'
+  | 'Research'
+  | 'Search'
+  | 'Development'
+  | 'Presentations'
+  | 'Voice'
+  | 'Music'
+  | 'Hosting';
 
 export interface Tool {
   id: string;
