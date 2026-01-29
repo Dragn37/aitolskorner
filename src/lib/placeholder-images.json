@@ -3,37 +3,37 @@
     {
       "id": "logo-chatgpt",
       "description": "ChatGPT logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=chat.openai.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=openai.com",
       "imageHint": "chatgpt logo"
     },
     {
       "id": "logo-claude",
       "description": "Claude logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=claude.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=anthropic.com",
       "imageHint": "claude logo"
     },
     {
       "id": "logo-jasper",
       "description": "Jasper AI logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.jasper.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=jasper.ai",
       "imageHint": "jasper logo"
     },
     {
       "id": "logo-copy-ai",
       "description": "Copy.ai logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.copy.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=copy.ai",
       "imageHint": "copy.ai logo"
     },
     {
       "id": "logo-perplexity",
       "description": "Perplexity AI logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.perplexity.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=perplexity.ai",
       "imageHint": "perplexity logo"
     },
     {
       "id": "logo-midjourney",
       "description": "Midjourney logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.midjourney.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=midjourney.com",
       "imageHint": "midjourney logo"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "logo-canva",
       "description": "Canva logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.canva.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=canva.com",
       "imageHint": "canva logo"
     },
     {
@@ -58,24 +58,24 @@
       "id": "logo-github-copilot",
       "description": "GitHub Copilot logo",
       "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
-      "imageHint": "github copilot logo"
+      "imageHint": "github logo"
     },
     {
       "id": "logo-cursor",
       "description": "Cursor logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.cursor.so",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=cursor.so",
       "imageHint": "cursor logo"
     },
     {
       "id": "logo-bolt-new",
       "description": "Bolt.new logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=bolt.new",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=stackblitz.com",
       "imageHint": "bolt logo"
     },
     {
       "id": "logo-v0",
       "description": "v0 by Vercel logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=v0.dev",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=vercel.com",
       "imageHint": "v0 logo"
     },
     {
@@ -87,7 +87,7 @@
     {
       "id": "logo-notion",
       "description": "Notion logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.notion.so",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=notion.so",
       "imageHint": "notion logo"
     },
     {
@@ -99,7 +99,7 @@
     {
       "id": "logo-descript",
       "description": "Descript logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.descript.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=descript.com",
       "imageHint": "descript logo"
     },
     {
@@ -123,7 +123,7 @@
     {
       "id": "logo-netlify",
       "description": "Netlify logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.netlify.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=netlify.com",
       "imageHint": "netlify logo"
     },
     {
@@ -141,8 +141,122 @@
     {
       "id": "logo-suno",
       "description": "Suno logo",
-      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.suno.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=suno.ai",
       "imageHint": "suno logo"
+    },
+    {
+      "id": "logo-udio",
+      "description": "Udio logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=udio.com&sz=128",
+      "imageHint": "udio logo"
+    },
+    {
+      "id": "logo-mubert",
+      "description": "Mubert logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=mubert.com&sz=128",
+      "imageHint": "mubert logo"
+    },
+    {
+      "id": "logo-soundraw",
+      "description": "Soundraw logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=soundraw.io&sz=128",
+      "imageHint": "soundraw logo"
+    },
+    {
+      "id": "logo-boomy",
+      "description": "Boomy logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=boomy.com&sz=128",
+      "imageHint": "boomy logo"
+    },
+    {
+      "id": "logo-aiva",
+      "description": "AIVA logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=aiva.ai&sz=128",
+      "imageHint": "aiva logo"
+    },
+    {
+      "id": "logo-beatoven-ai",
+      "description": "Beatoven.ai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=beatoven.ai&sz=128",
+      "imageHint": "beatoven logo"
+    },
+    {
+      "id": "logo-loudly",
+      "description": "Loudly logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=loudly.com&sz=128",
+      "imageHint": "loudly logo"
+    },
+    {
+      "id": "logo-splash-pro",
+      "description": "Splash Pro logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=splashmusic.com&sz=128",
+      "imageHint": "splash pro logo"
+    },
+    {
+      "id": "logo-soundful",
+      "description": "Soundful logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=soundful.com&sz=128",
+      "imageHint": "soundful logo"
+    },
+    {
+      "id": "logo-amper-music",
+      "description": "Amper Music logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=shutterstock.com&sz=128",
+      "imageHint": "amper music logo"
+    },
+    {
+      "id": "logo-ecrett-music",
+      "description": "Ecrett Music logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=ecrettmusic.com&sz=128",
+      "imageHint": "ecrett music logo"
+    },
+    {
+      "id": "logo-riffusion",
+      "description": "Riffusion logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=riffusion.com&sz=128",
+      "imageHint": "riffusion logo"
+    },
+    {
+      "id": "logo-songburst",
+      "description": "Songburst logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=songburst.ai&sz=128",
+      "imageHint": "songburst logo"
+    },
+    {
+      "id": "logo-wavtool",
+      "description": "WavTool logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=wavtool.com&sz=128",
+      "imageHint": "wavtool logo"
+    },
+    {
+      "id": "logo-stable-audio",
+      "description": "Stable Audio logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=stableaudio.com&sz=128",
+      "imageHint": "stable audio logo"
+    },
+    {
+      "id": "logo-soundverse",
+      "description": "Soundverse logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=soundverse.ai&sz=128",
+      "imageHint": "soundverse logo"
+    },
+    {
+      "id": "logo-harmonai",
+      "description": "Harmonai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=harmonai.org&sz=128",
+      "imageHint": "harmonai logo"
+    },
+    {
+      "id": "logo-amadeus-code",
+      "description": "Amadeus Code logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=amadeusco.de&sz=128",
+      "imageHint": "amadeus code logo"
+    },
+    {
+      "id": "logo-musicfy",
+      "description": "Musicfy logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=musicfy.lol&sz=128",
+      "imageHint": "musicfy logo"
     },
     {
       "id": "article-image-1",
