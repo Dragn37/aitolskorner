@@ -28,7 +28,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         {logo && (
           <div className="relative w-16 h-16 flex-shrink-0">
             <Image
-              src={logo.imageUrl}
+              src={`https://www.google.com/s2/favicons?sz=64&domain=${tool.website}`}
               alt={`${tool.name} logo`}
               width={64}
               height={64}
@@ -49,9 +49,9 @@ export default function ToolCard({ tool }: ToolCardProps) {
         <CardDescription>{tool.description}</CardDescription>
       </CardContent>
       <CardFooter>
-        <Button asChild className="w-full" variant="outline">
+        <Button asChild className="w-full bg-gradient-to-r from-primary to-accent text-primary-foreground transition-opacity hover:opacity-90">
           <Link href={`/tools/${tool.slug}`}>
-            Learn More <ArrowRight className="ml-2" />
+            Visit {tool.name} <ArrowRight className="ml-2" />
           </Link>
         </Button>
       </CardFooter>
