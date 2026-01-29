@@ -3,145 +3,145 @@
     {
       "id": "logo-chatgpt",
       "description": "ChatGPT logo",
-      "imageUrl": "https://logo.clearbit.com/openai.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=chat.openai.com",
       "imageHint": "chatgpt logo"
     },
     {
       "id": "logo-claude",
       "description": "Claude logo",
-      "imageUrl": "https://logo.clearbit.com/anthropic.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=claude.ai",
       "imageHint": "claude logo"
     },
     {
       "id": "logo-jasper",
       "description": "Jasper AI logo",
-      "imageUrl": "https://logo.clearbit.com/jasper.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.jasper.ai",
       "imageHint": "jasper logo"
     },
     {
       "id": "logo-copy-ai",
       "description": "Copy.ai logo",
-      "imageUrl": "https://logo.clearbit.com/copy.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.copy.ai",
       "imageHint": "copy.ai logo"
     },
     {
       "id": "logo-perplexity",
       "description": "Perplexity AI logo",
-      "imageUrl": "https://logo.clearbit.com/perplexity.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.perplexity.ai",
       "imageHint": "perplexity logo"
     },
     {
       "id": "logo-midjourney",
       "description": "Midjourney logo",
-      "imageUrl": "https://logo.clearbit.com/midjourney.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.midjourney.com",
       "imageHint": "midjourney logo"
     },
     {
       "id": "logo-dall-e-3",
       "description": "DALL-E 3 logo",
-      "imageUrl": "https://logo.clearbit.com/openai.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=openai.com",
       "imageHint": "dall-e logo"
     },
     {
       "id": "logo-canva",
       "description": "Canva logo",
-      "imageUrl": "https://logo.clearbit.com/canva.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.canva.com",
       "imageHint": "canva logo"
     },
     {
       "id": "logo-stable-diffusion",
       "description": "Stable Diffusion logo",
-      "imageUrl": "https://logo.clearbit.com/stability.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=stability.ai",
       "imageHint": "stability ai logo"
     },
     {
       "id": "logo-github-copilot",
       "description": "GitHub Copilot logo",
-      "imageUrl": "https://logo.clearbit.com/github.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=github.com",
       "imageHint": "github copilot logo"
     },
     {
       "id": "logo-cursor",
       "description": "Cursor logo",
-      "imageUrl": "https://logo.clearbit.com/cursor.so",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.cursor.so",
       "imageHint": "cursor logo"
     },
     {
       "id": "logo-bolt-new",
       "description": "Bolt.new logo",
-      "imageUrl": "https://logo.clearbit.com/stackblitz.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=bolt.new",
       "imageHint": "bolt logo"
     },
     {
       "id": "logo-v0",
       "description": "v0 by Vercel logo",
-      "imageUrl": "https://logo.clearbit.com/vercel.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=v0.dev",
       "imageHint": "v0 logo"
     },
     {
       "id": "logo-replit",
       "description": "Replit logo",
-      "imageUrl": "https://logo.clearbit.com/replit.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=replit.com",
       "imageHint": "replit logo"
     },
     {
       "id": "logo-notion",
       "description": "Notion logo",
-      "imageUrl": "https://logo.clearbit.com/notion.so",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.notion.so",
       "imageHint": "notion logo"
     },
     {
       "id": "logo-gamma",
       "description": "Gamma logo",
-      "imageUrl": "https://logo.clearbit.com/gamma.app",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=gamma.app",
       "imageHint": "gamma logo"
     },
     {
       "id": "logo-descript",
       "description": "Descript logo",
-      "imageUrl": "https://logo.clearbit.com/descript.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.descript.com",
       "imageHint": "descript logo"
     },
     {
       "id": "logo-google-ai",
       "description": "Google AI Studio logo",
-      "imageUrl": "https://logo.clearbit.com/google.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=aistudio.google.com",
       "imageHint": "google ai logo"
     },
     {
       "id": "logo-hugging-face",
       "description": "Hugging Face logo",
-      "imageUrl": "https://logo.clearbit.com/huggingface.co",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=huggingface.co",
       "imageHint": "hugging face logo"
     },
     {
       "id": "logo-vercel",
       "description": "Vercel logo",
-      "imageUrl": "https://logo.clearbit.com/vercel.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=vercel.com",
       "imageHint": "vercel logo"
     },
     {
       "id": "logo-netlify",
       "description": "Netlify logo",
-      "imageUrl": "https://logo.clearbit.com/netlify.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.netlify.com",
       "imageHint": "netlify logo"
     },
     {
       "id": "logo-runwayml",
       "description": "Runway logo",
-      "imageUrl": "https://logo.clearbit.com/runwayml.com",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=runwayml.com",
       "imageHint": "runway logo"
     },
     {
       "id": "logo-elevenlabs",
       "description": "ElevenLabs logo",
-      "imageUrl": "https://logo.clearbit.com/elevenlabs.io",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=elevenlabs.io",
       "imageHint": "elevenlabs logo"
     },
     {
       "id": "logo-suno",
       "description": "Suno logo",
-      "imageUrl": "https://logo.clearbit.com/suno.ai",
+      "imageUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.suno.ai",
       "imageHint": "suno logo"
     },
     {
