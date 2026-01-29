@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -34,8 +35,28 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/s2/favicons/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'logo.clearbit.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.openai.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.aitolskorner.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
+    minimumCacheTTL: 60,
   },
+  swcMinify: true,
 };
 
 export default nextConfig;

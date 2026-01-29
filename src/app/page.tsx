@@ -1,10 +1,30 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import type { Metadata } from 'next';
 
 import { getTrendingTools, getLatestArticles } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import ToolCard from '@/components/tool-card';
 import ArticleCard from '@/components/article-card';
+
+export const metadata: Metadata = {
+  title: 'Best AI Tools 2026 | AI Tools Korner - Expert Reviews & Comparisons',
+  description: 'Discover and compare the best AI tools for writing, coding, design, and productivity. Expert reviews of ChatGPT, Claude, Midjourney, and 100+ AI tools. Updated daily.',
+  keywords: ['AI tools', 'artificial intelligence', 'ChatGPT', 'Claude', 'Midjourney', 'AI writing tools', 'AI image generators', 'AI coding tools', 'best AI tools 2026'],
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Best AI Tools 2026 | AI Tools Korner - Expert Reviews',
+    description: 'Discover and compare the best AI tools for writing, coding, design, and productivity. Expert reviews updated daily.',
+    url: '/',
+  },
+  twitter: {
+    title: 'Best AI Tools 2026 | AI Tools Korner',
+    description: 'Discover and compare the best AI tools. Expert reviews of ChatGPT, Claude, Midjourney, and 100+ AI tools.',
+  }
+};
+
 
 export default function Home() {
   const trendingTools = getTrendingTools();
