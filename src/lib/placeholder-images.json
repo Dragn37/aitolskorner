@@ -259,6 +259,156 @@
       "imageHint": "musicfy logo"
     },
     {
+      "id": "logo-synthesia",
+      "description": "Synthesia logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=synthesia.io&sz=128",
+      "imageHint": "synthesia logo"
+    },
+    {
+      "id": "logo-heygen",
+      "description": "HeyGen logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=heygen.com&sz=128",
+      "imageHint": "heygen logo"
+    },
+    {
+      "id": "logo-pictory",
+      "description": "Pictory logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=pictory.ai&sz=128",
+      "imageHint": "pictory logo"
+    },
+    {
+      "id": "logo-invideo-ai",
+      "description": "Invideo AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=invideo.io&sz=128",
+      "imageHint": "invideo logo"
+    },
+    {
+      "id": "logo-pika",
+      "description": "Pika logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=pika.art&sz=128",
+      "imageHint": "pika logo"
+    },
+    {
+      "id": "logo-luma-dream-machine",
+      "description": "Luma Dream Machine logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=128",
+      "imageHint": "luma logo"
+    },
+    {
+      "id": "logo-kling-ai",
+      "description": "Kling AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=klingai.com&sz=128",
+      "imageHint": "kling logo"
+    },
+    {
+      "id": "logo-fliki",
+      "description": "Fliki logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=fliki.ai&sz=128",
+      "imageHint": "fliki logo"
+    },
+    {
+      "id": "logo-colossyan",
+      "description": "Colossyan logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=colossyan.com&sz=128",
+      "imageHint": "colossyan logo"
+    },
+    {
+      "id": "logo-elai-io",
+      "description": "Elai.io logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=elai.io&sz=128",
+      "imageHint": "elai.io logo"
+    },
+    {
+      "id": "logo-steve-ai",
+      "description": "Steve.AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=steve.ai&sz=128",
+      "imageHint": "steve.ai logo"
+    },
+    {
+      "id": "logo-deepbrain-ai",
+      "description": "Deepbrain AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=deepbrain.io&sz=128",
+      "imageHint": "deepbrain logo"
+    },
+    {
+      "id": "logo-haiper-ai",
+      "description": "Haiper AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=haiper.ai&sz=128",
+      "imageHint": "haiper logo"
+    },
+    {
+      "id": "logo-moonvalley",
+      "description": "Moonvalley logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=moonvalley.ai&sz=128",
+      "imageHint": "moonvalley logo"
+    },
+    {
+      "id": "logo-artflow-ai",
+      "description": "Artflow AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=artflow.ai&sz=128",
+      "imageHint": "artflow logo"
+    },
+    {
+      "id": "logo-opusclip",
+      "description": "OpusClip logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=opus.pro&sz=128",
+      "imageHint": "opusclip logo"
+    },
+    {
+      "id": "logo-vidyo-ai",
+      "description": "Vidyo.ai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=vidyo.ai&sz=128",
+      "imageHint": "vidyo.ai logo"
+    },
+    {
+      "id": "logo-kapwing",
+      "description": "Kapwing logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=kapwing.com&sz=128",
+      "imageHint": "kapwing logo"
+    },
+    {
+      "id": "logo-animoto",
+      "description": "Animoto logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=animoto.com&sz=128",
+      "imageHint": "animoto logo"
+    },
+    {
+      "id": "logo-clipchamp",
+      "description": "Clipchamp logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=clipchamp.com&sz=128",
+      "imageHint": "clipchamp logo"
+    },
+    {
+      "id": "logo-captions-app",
+      "description": "Captions logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=captions.ai&sz=128",
+      "imageHint": "captions logo"
+    },
+    {
+      "id": "logo-kaiber",
+      "description": "Kaiber logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=kaiber.ai&sz=128",
+      "imageHint": "kaiber logo"
+    },
+    {
+      "id": "logo-wonder-studio",
+      "description": "Wonder Studio logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=wonderdynamics.com&sz=128",
+      "imageHint": "wonder studio logo"
+    },
+    {
+      "id": "logo-d-id",
+      "description": "D-ID logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=d-id.com&sz=128",
+      "imageHint": "d-id logo"
+    },
+    {
+      "id": "logo-lumen5",
+      "description": "Lumen5 logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=lumen5.com&sz=128",
+      "imageHint": "lumen5 logo"
+    },
+    {
       "id": "article-image-1",
       "description": "Abstract image representing AI and creativity",
       "imageUrl": "https://images.unsplash.com/photo-1764664281860-c5725fafa634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8QUklMjBjcmVhdGl2aXR5fGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
