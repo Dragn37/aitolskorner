@@ -20,11 +20,8 @@ export default function ArticleCard({ article }: ArticleCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === article.imageUrlId);
 
   return (
-    <Link
-      href={`/articles/${article.slug}`}
-      className="group block h-full"
-    >
-      <Card className="flex flex-col h-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm transition-colors duration-300 group-hover:border-primary/50">
+    <Link href={`/articles/${article.slug}`} className="group block h-full">
+      <Card className="flex flex-col h-full transform transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl group-hover:shadow-primary/10 overflow-hidden">
         {image && (
           <div className="relative aspect-video">
             <Image
