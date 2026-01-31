@@ -58,12 +58,8 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: '/apple-touch-icon.png',
+    icon: 'https://i.pinimg.com/736x/e7/92/80/e79280810545aa5dc6eb0491a3780acf.jpg',
+    apple: 'https://i.pinimg.com/736x/e7/92/80/e79280810545aa5dc6eb0491a3780acf.jpg',
   },
   verification: {
     google: 'YOUR_VERIFICATION_CODE',
