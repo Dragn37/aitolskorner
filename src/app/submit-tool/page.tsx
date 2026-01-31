@@ -1,127 +1,46 @@
-'use client';
+import type { Metadata } from 'next';
 
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm } from 'react-hook-form';
-import * as z from 'zod';
-
-import { Button } from '@/components/ui/button';
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from '@/components/ui/form';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { useToast } from '@/hooks/use-toast';
-
-const formSchema = z.object({
-  name: z.string().min(2, 'Tool name must be at least 2 characters.'),
-  website: z.string().url('Please enter a valid URL.'),
-  description: z.string().min(20, 'Description must be at least 20 characters.'),
-  category: z.string().min(2, 'Category is required.'),
-});
+export const metadata: Metadata = {
+  title: 'Submit a Tool',
+  description: 'Get your AI tool featured on AI Tools Korner.',
+};
 
 export default function SubmitToolPage() {
-  const { toast } = useToast();
-
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
-    defaultValues: {
-      name: '',
-      website: '',
-      description: '',
-      category: '',
-    },
-  });
-
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: 'Submission Received!',
-      description: "Thanks for submitting your tool. We'll review it shortly.",
-    });
-    form.reset();
-  }
-
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-3xl mx-auto">
         <header className="mb-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold font-headline leading-tight mb-4">
-            Submit a Tool
+            Feature Your AI Tool
           </h1>
           <p className="text-lg text-muted-foreground">
-            Have an AI tool you'd like us to feature? Let us know!
+            Partner with us to showcase your innovation to a dedicated audience.
           </p>
         </header>
 
-        <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-            <FormField
-              control={form.control}
-              name="name"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Tool Name</FormLabel>
-                  <FormControl>
-                    <Input placeholder="e.g., Scribe AI" {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            <FormField
-              control={form.control}
-              name="website"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Website URL</FormLabel>
-                  <FormControl>
-                    <Input placeholder="https://example.com" {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            <FormField
-              control={form.control}
-              name="description"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Short Description</FormLabel>
-                  <FormControl>
-                    <Textarea
-                      placeholder="Describe what your tool does in one or two sentences."
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            <FormField
-              control={form.control}
-              name="category"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Category</FormLabel>
-                  <FormControl>
-                    <Input placeholder="e.g., Writing, Image, etc." {...field} />
-                  </FormControl>
-                  <FormDescription>
-                    What category does your tool best fit into?
-                  </FormDescription>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            <Button type="submit">Submit for Review</Button>
-          </form>
-        </Form>
+        <div className="space-y-6 text-center">
+          <p className="text-xl text-foreground/90">
+            AI Tools Korner is a fast-growing hub for AI enthusiasts, developers, and early adopters. Featuring your tool on our platform is a great way to gain visibility and connect with your target users.
+          </p>
+          <p className="text-muted-foreground">
+            We are looking for innovative and high-quality AI tools to showcase to our audience. If you have a tool you believe would be a great fit for our directory, we'd love to hear from you.
+          </p>
+          <div className="bg-card border rounded-xl p-8 my-8">
+            <h2 className="text-2xl font-bold font-headline mb-4">Get in Touch</h2>
+            <p className="text-muted-foreground mb-6">
+              To submit your tool for review or to discuss partnership opportunities, please reach out to our team.
+            </p>
+            <a
+              href="mailto:aitoolskorner@proton.me"
+              className="inline-block bg-primary text-primary-foreground px-8 py-3 rounded-lg text-lg font-bold hover:bg-primary/90 transition-colors"
+            >
+              aitoolskorner@proton.me
+            </a>
+          </div>
+           <p className="text-muted-foreground">
+            Please include the name of your tool, a link to your website, and a brief description. We review all submissions carefully and will get back to you if your tool is a good fit for our platform.
+          </p>
+        </div>
       </div>
     </div>
   );
