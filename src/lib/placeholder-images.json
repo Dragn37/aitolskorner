@@ -425,6 +425,12 @@
       "description": "Image showing ethical considerations of AI",
       "imageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxBSSUyMGV0aGljc3xlbnwwfHx8fDE3Njk4NDg4MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "AI ethics"
+    },
+    {
+      "id": "article-image-openclaw",
+      "description": "Abstract image representing the OpenClaw AI agent phenomenon",
+      "imageUrl": "https://images.unsplash.com/photo-1659018966820-de07c94e0d01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8QUklMjByb2JvdHxlbnwwfHx8fDE3Njk4NjI1NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI robot"
     }
   ]
 }

@@ -3,6 +3,7 @@ import { content as article1Content } from './articles/ai-girlfriend-companionsh
 import { content as article2Content } from './articles/ai-video-revolution-sora-pika-runway';
 import { content as article3Content } from './articles/ai-agents-autonomous-workforce';
 import { NvideaArticle } from './articles/Nvidia-Halts-Reported-$100-Billion-Investment-Plan-in-OpenAI-A-Deep-Dive-into-AI-Industry-Dynamics';
+import { OpenClawArticle } from './articles/openclaw-moltbot-viral-phenomenon';
 
 const CATEGORIES: Category[] = [
   { slug: 'writing', name: 'Writing', description: 'Tools to assist with writing, editing, and content creation.' },
@@ -802,6 +803,16 @@ const tools: Tool[] = [
 
 
 const articles: Article[] = [
+  {
+    id: '5',
+    slug: 'openclaw-moltbot-viral-phenomenon',
+    title: OpenClawArticle.title,
+    excerpt: OpenClawArticle.description,
+    date: '2026-01-31',
+    author: 'AI Tools Korner Staff',
+    imageUrlId: 'article-image-openclaw',
+    content: OpenClawArticle.content,
+  },
   {
     id: '4',
     slug: 'nvidia-halts-investment-in-openai-deep-dive',
