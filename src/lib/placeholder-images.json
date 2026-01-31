@@ -331,12 +331,6 @@
       "imageHint": "deepbrain logo"
     },
     {
-      "id": "logo-haiper-ai",
-      "description": "Haiper AI logo",
-      "imageUrl": "https://www.google.com/s2/favicons?domain=haiper.ai&sz=128",
-      "imageHint": "haiper logo"
-    },
-    {
       "id": "logo-moonvalley",
       "description": "Moonvalley logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=moonvalley.ai&sz=128",

@@ -663,17 +663,6 @@ const tools: Tool[] = [
     useCases: ['startups'],
   },
   {
-    id: '56',
-    slug: 'haiper-ai',
-    name: 'Haiper AI',
-    description: 'AI video creation with advanced motion control',
-    longDescription: 'Haiper AI generates creative videos from text and images with advanced motion controls. Free tool for creators to bring their ideas to life.',
-    category: 'Video',
-    logoUrlId: 'logo-haiper-ai',
-    website: 'https://haiper.ai',
-    useCases: ['creators'],
-  },
-  {
     id: '57',
     slug: 'moonvalley',
     name: 'Moonvalley',
