@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, PlusCircle, Sun } from 'lucide-react';
-import { useState } from 'react';
+import { Menu, PlusCircle, Sun, Moon } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 import { Logo } from '@/components/icons';
 import { Button } from '@/components/ui/button';
@@ -20,6 +20,32 @@ const navLinks = [
 export function Header() {
   const pathname = usePathname();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [theme, setTheme] = useState('dark');
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme === 'light') {
+      document.documentElement.classList.add('light');
+      setTheme('light');
+    } else {
+      document.documentElement.classList.remove('light');
+      setTheme('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('light');
+      localStorage.setItem('theme', 'light');
+      setTheme('light');
+    } else {
+      document.documentElement.classList.remove('light');
+      localStorage.setItem('theme', 'dark');
+      setTheme('dark');
+    }
+  };
 
   const NavLink = ({
     href,
@@ -100,8 +126,8 @@ export function Header() {
               Submit Tool
             </Link>
           </Button>
-          <Button variant="ghost" size="icon">
-            <Sun className="h-5 w-5" />
+          <Button variant="ghost" size="icon" onClick={toggleTheme} disabled={!mounted}>
+            {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             <span className="sr-only">Toggle Theme</span>
           </Button>
         </div>
