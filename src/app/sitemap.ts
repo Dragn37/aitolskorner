@@ -42,7 +42,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/privacy-policy',
     '/terms-and-conditions',
-    '/affiliate-disclosure',
     '/submit-tool',
     '/use-cases'
   ].map(page => ({

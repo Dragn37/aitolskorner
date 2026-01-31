@@ -65,9 +65,6 @@ export function Footer() {
                 <FooterLink href="/terms-and-conditions">
                   Terms & Conditions
                 </FooterLink>
-                <FooterLink href="/affiliate-disclosure">
-                  Affiliate Disclosure
-                </FooterLink>
               </ul>
             </div>
           </div>

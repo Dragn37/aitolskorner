@@ -36,6 +36,27 @@ export default function TermsAndConditionsPage() {
             that could harm the website or its users.
           </p>
           
+          <h2 className="text-2xl font-bold font-headline">Affiliate Disclosure</h2>
+          <p>
+            At AI Tools Korner, our goal is to provide you with the best, most
+            up-to-date information about artificial intelligence tools and
+            platforms. To support our work and keep our content free, we
+            participate in affiliate marketing programs.
+          </p>
+          <p>
+            This means that when you click on certain links on our site and make
+            a purchase or sign up for a service, we may earn a small commission
+            at no extra cost to you. These commissions help us cover the costs
+            of running this website, including research, writing, and hosting.
+          </p>
+          <p>
+            Our editorial content is not influenced by affiliate partnerships.
+            We are committed to providing honest and unbiased reviews and
+            recommendations. We only promote products and services that we
+            believe will provide value to our readers. Your trust is our top
+            priority.
+          </p>
+
           <h2 className="text-2xl font-bold font-headline">Disclaimer</h2>
           <p>
             The information on our website is provided for general informational
