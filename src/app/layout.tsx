@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   icons: {
-    icon: 'https://i.pinimg.com/736x/e7/92/80/e79280810545aa5dc6eb0491a3780acf.jpg',
-    apple: 'https://i.pinimg.com/736x/e7/92/80/e79280810545aa5dc6eb0491a3780acf.jpg',
+    icon: 'https://storage.googleapis.com/studiopublic/atk-favicon.png',
+    apple: 'https://storage.googleapis.com/studiopublic/atk-favicon.png',
   },
   verification: {
     google: 'YOUR_VERIFICATION_CODE',
