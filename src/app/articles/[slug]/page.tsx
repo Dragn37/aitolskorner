@@ -59,6 +59,25 @@ export default function ArticlePage({ params }: Props) {
 
   const image = PlaceHolderImages.find((img) => img.id === article.imageUrlId);
 
+  // A simple function to render HTML content from the article data
+  const renderContent = (content: string) => {
+    return content.split('\n\n').map((paragraph, index) => {
+      if (paragraph.startsWith('<h2>')) {
+        return <h2 key={index} className="text-3xl font-bold mt-12 mb-4 font-headline" dangerouslySetInnerHTML={{ __html: paragraph.replace(/<\/?h2>/g, '') }} />;
+      }
+       if (paragraph.startsWith('<h3>')) {
+        return <h3 key={index} className="text-2xl font-bold mt-8 mb-3 font-headline" dangerouslySetInnerHTML={{ __html: paragraph.replace(/<\/?h3>/g, '') }} />;
+      }
+      if (paragraph.startsWith('<ul>')) {
+        const listItems = paragraph.match(/<li>(.*?)<\/li>/g)?.map(item => item.replace(/<li>/g, '').replace(/<\/li>/g, ''));
+        return <ul className="list-disc list-inside my-4 pl-4 space-y-2">{listItems?.map((item, i) => <li key={i} dangerouslySetInnerHTML={{ __html: item }}/>)}</ul>
+      }
+
+      // This will render paragraphs and handle the anchor tags within them
+      return <p key={index} className="text-lg leading-relaxed mb-6" dangerouslySetInnerHTML={{__html: paragraph}} />;
+    });
+  }
+
   return (
     <>
       <script
@@ -115,7 +134,7 @@ export default function ArticlePage({ params }: Props) {
       />
       <article className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto">
-          <header className="mb-8">
+          <header className="mb-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold font-headline leading-tight mb-4">
               {article.title}
             </h1>
@@ -126,7 +145,7 @@ export default function ArticlePage({ params }: Props) {
           </header>
 
           {image && (
-            <div className="relative aspect-video rounded-xl overflow-hidden mb-8">
+            <div className="relative aspect-video rounded-2xl overflow-hidden mb-8 shadow-lg">
               <Image
                 src={image.imageUrl}
                 alt={article.title}
@@ -139,11 +158,7 @@ export default function ArticlePage({ params }: Props) {
           )}
 
           <div className="article-content">
-            {article.content.split('\n\n').map((paragraph, index) => (
-              <p key={index} className="mb-6">
-                {paragraph}
-              </p>
-            ))}
+            {renderContent(article.content)}
           </div>
         </div>
       </article>
