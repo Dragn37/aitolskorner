@@ -14,6 +14,7 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
+  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import {
@@ -109,10 +110,11 @@ export function Header() {
                   Categories <ChevronDown className="h-4 w-4" />
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="start">
-                <DropdownMenuItem asChild>
-                  <Link href="/categories">All Categories</Link>
+              <DropdownMenuContent align="start" className="w-[450px] grid grid-cols-3 gap-1 p-2">
+                <DropdownMenuItem asChild className="col-span-3">
+                  <Link href="/categories" className="font-bold">All Categories</Link>
                 </DropdownMenuItem>
+                <DropdownMenuSeparator className="col-span-3 my-1" />
                 {categories.map((category) => (
                   <DropdownMenuItem key={category.slug} asChild>
                     <Link href={`/categories/${category.slug}`}>{category.name}</Link>
