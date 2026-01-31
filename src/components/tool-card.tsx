@@ -15,12 +15,16 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 interface ToolCardProps {
   tool: Tool;
 }
 
 export default function ToolCard({ tool }: ToolCardProps) {
+  const logo = PlaceHolderImages.find((img) => img.id === tool.logoUrlId);
+  const faviconUrl = logo?.imageUrl ?? `https://www.google.com/s2/favicons?sz=64&domain=${new URL(tool.website).hostname}`;
+
   return (
     <Card className="flex flex-col h-full group relative hover:border-primary/50 transition-colors">
       <Button
@@ -36,7 +40,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         <div className="flex items-start gap-4">
           <div className="relative w-12 h-12 flex-shrink-0">
             <Image
-              src={`https://www.google.com/s2/favicons?sz=64&domain=${tool.website}`}
+              src={faviconUrl}
               alt={`${tool.name} logo`}
               width={48}
               height={48}
