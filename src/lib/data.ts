@@ -515,7 +515,7 @@ const tools: Tool[] = [
     category: 'Music',
     trending: false,
     logoUrlId: 'logo-amadeus-code',
-    website: 'https://amadeusco.de',
+    website: 'https://amadeuscode.com/',
     useCases: ['creators'],
   },
   {
