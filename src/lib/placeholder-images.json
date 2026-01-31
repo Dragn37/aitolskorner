@@ -410,21 +410,21 @@
     },
     {
       "id": "article-image-1",
-      "description": "Abstract image representing AI and creativity",
-      "imageUrl": "https://images.unsplash.com/photo-1764664281860-c5725fafa634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8QUklMjBjcmVhdGl2aXR5fGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "AI creativity"
+      "description": "Abstract image representing AI and relationships",
+      "imageUrl": "https://images.unsplash.com/photo-1518602164578-cd9d88372602?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "AI relationship"
     },
     {
       "id": "article-image-2",
-      "description": "Image representing the future of work with AI",
-      "imageUrl": "https://images.unsplash.com/photo-1614947746254-4fd8c6cb1a7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmdXR1cmUlMjB3b3JrfGVufDB8fHx8MTc2OTY4MTgzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "future work"
+      "description": "Image representing AI-generated video and filmmaking",
+      "imageUrl": "https://images.unsplash.com/photo-1620712943543-959651a08084?q=80&w=1974&auto=format&fit=crop",
+      "imageHint": "AI filmmaking"
     },
     {
       "id": "article-image-3",
-      "description": "Image related to AI in software development",
-      "imageUrl": "https://images.unsplash.com/photo-1681583484651-281ae2defb17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBSSUyMGNvZGluZ3xlbnwwfHx8fDE3Njk2ODE4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "AI coding"
+      "description": "Image representing AI automation and productivity",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+      "imageHint": "AI automation"
     },
     {
       "id": "article-image-4",
