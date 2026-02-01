@@ -59,79 +59,84 @@ export default function ArticlesPage() {
   const filterCategories = ["Latest", "Tutorials", "Daily News", "Reviews", "Interviews"];
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-          <span className='text-primary'>AI News</span> & Articles
-        </h1>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Stay updated with the latest breakthroughs, tutorials, and deep dives into the rapidly evolving world of Artificial Intelligence.
-        </p>
+    <div>
+      <div className="relative py-16 md:py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,hsl(var(--primary)/0.1)_0%,transparent_70%)]"></div>
+        <div className="container relative text-center">
+            <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
+              <span className='text-primary'>AI News</span> & Articles
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Stay updated with the latest breakthroughs, tutorials, and deep dives into the rapidly evolving world of Artificial Intelligence.
+            </p>
+        </div>
       </div>
-
-      {featuredArticle && featuredImage && (
-        <section className="mb-16">
-          <Link href={`/articles/${featuredArticle.slug}`} className="block group">
-            <div className="relative rounded-2xl overflow-hidden aspect-video md:aspect-[2.4/1] bg-card">
-               <Image
-                src={featuredImage.imageUrl}
-                alt={featuredArticle.title}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                data-ai-hint={featuredImage.imageHint}
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
-              <div className="absolute bottom-0 left-0 p-6 md:p-10 text-white">
-                <div className='flex gap-2 mb-3'>
-                  <Badge>Latest News</Badge>
-                  <Badge variant="secondary">Featured</Badge>
-                </div>
-                <h2 className="text-2xl md:text-4xl font-headline font-bold leading-tight mb-4 group-hover:text-primary transition-colors">
-                  {featuredArticle.title}
-                </h2>
-                <div className="flex items-center gap-4 text-sm">
-                    <div className="flex items-center gap-2">
-                        <AuthorAvatar authorName={featuredArticle.author}/>
-                        <span>{featuredArticle.author}</span>
-                    </div>
-                    <span className='text-muted-foreground'>•</span>
-                    <span>{new Date(featuredArticle.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                    {featuredArticle.readTime && (
-                        <>
-                            <span className='text-muted-foreground'>•</span>
-                            <div className='flex items-center gap-1.5'>
-                                <Clock className="w-4 h-4" />
-                                <span>{featuredArticle.readTime} min read</span>
-                            </div>
-                        </>
-                    )}
+      
+      <div className="container mx-auto px-4 pb-12">
+        {featuredArticle && featuredImage && (
+          <section className="mb-16">
+            <Link href={`/articles/${featuredArticle.slug}`} className="block group">
+              <div className="relative rounded-2xl overflow-hidden aspect-video md:aspect-[2.4/1] bg-card">
+                 <Image
+                  src={featuredImage.imageUrl}
+                  alt={featuredArticle.title}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  data-ai-hint={featuredImage.imageHint}
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6 md:p-10 text-white">
+                  <div className='flex gap-2 mb-3'>
+                    <Badge>Latest News</Badge>
+                    <Badge variant="secondary">Featured</Badge>
+                  </div>
+                  <h2 className="text-2xl md:text-4xl font-headline font-bold leading-tight mb-4 group-hover:text-primary transition-colors">
+                    {featuredArticle.title}
+                  </h2>
+                  <div className="flex items-center gap-4 text-sm">
+                      <div className="flex items-center gap-2">
+                          <AuthorAvatar authorName={featuredArticle.author}/>
+                          <span>{featuredArticle.author}</span>
+                      </div>
+                      <span className='text-muted-foreground'>•</span>
+                      <span>{new Date(featuredArticle.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                      {featuredArticle.readTime && (
+                          <>
+                              <span className='text-muted-foreground'>•</span>
+                              <div className='flex items-center gap-1.5'>
+                                  <Clock className="w-4 h-4" />
+                                  <span>{featuredArticle.readTime} min read</span>
+                              </div>
+                          </>
+                      )}
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
-        </section>
-      )}
+            </Link>
+          </section>
+        )}
 
-      <div className="flex flex-wrap justify-center gap-2 mb-12">
-        {filterCategories.map((cat) => (
-          <Button key={cat} variant={cat === "Latest" ? "default" : "outline"} className="rounded-full">
-            {cat}
+        <div className="flex flex-wrap justify-center gap-2 mb-12">
+          {filterCategories.map((cat) => (
+            <Button key={cat} variant={cat === "Latest" ? "default" : "outline"} className="rounded-full">
+              {cat}
+            </Button>
+          ))}
+        </div>
+
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {otherArticles.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+          ))}
+        </div>
+
+        <div className="text-center mt-16">
+          <Button variant="outline" size="lg">
+            Load More Articles <ChevronDown className="ml-2 h-4 w-4" />
           </Button>
-        ))}
-      </div>
-
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {otherArticles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
-        ))}
-      </div>
-
-      <div className="text-center mt-16">
-        <Button variant="outline" size="lg">
-          Load More Articles <ChevronDown className="ml-2 h-4 w-4" />
-        </Button>
+        </div>
       </div>
     </div>
   );
