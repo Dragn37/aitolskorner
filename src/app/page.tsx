@@ -64,7 +64,7 @@ export default function Home() {
             </Link>
           </Button>
           <Button asChild size="lg" variant="outline">
-            <Link href="/articles">Read Articles</Link>
+            <Link href="/articles">Read AI News</Link>
           </Button>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
 
       <section className="py-16">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold font-headline">Latest Articles</h2>
+          <h2 className="text-3xl font-bold font-headline">Latest AI News</h2>
           <Button asChild variant="ghost">
             <Link href="/articles">
               View All <ArrowRight className="ml-2" />

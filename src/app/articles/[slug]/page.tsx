@@ -119,7 +119,7 @@ export default function ArticlePage({ params }: Props) {
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Articles',
+                name: 'AI News',
                 item: 'https://www.aitolskorner.com/articles',
               },
               {

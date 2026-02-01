@@ -3,9 +3,9 @@ import ArticleCard from '@/components/article-card';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Articles',
+  title: 'AI News',
   description:
-    'Read insightful articles and editorials on the world of artificial intelligence.',
+    'Read insightful AI news and editorials on the world of artificial intelligence.',
 };
 
 export default function ArticlesPage() {
@@ -15,10 +15,10 @@ export default function ArticlesPage() {
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">
-          Articles on AI
+          AI News
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Stay informed with our collection of insightful articles, trends, and
+          Stay informed with our collection of insightful AI news, trends, and
           tutorials about Artificial Intelligence.
         </p>
       </div>

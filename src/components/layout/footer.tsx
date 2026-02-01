@@ -43,7 +43,7 @@ export function Footer() {
                 <FooterLink href="/tools">Tools</FooterLink>
                 <FooterLink href="/categories">Categories</FooterLink>
                 <FooterLink href="/trending">Trending</FooterLink>
-                <FooterLink href="/articles">Articles</FooterLink>
+                <FooterLink href="/articles">AI News</FooterLink>
               </ul>
             </div>
             <div>

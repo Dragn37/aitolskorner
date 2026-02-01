@@ -50,7 +50,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
         </CardContent>
         <CardFooter>
           <div className="text-sm font-medium text-primary group-hover:text-primary/80 flex items-center">
-            Read article <ArrowRight className="ml-2 h-4 w-4" />
+            Read More <ArrowRight className="ml-2 h-4 w-4" />
           </div>
         </CardFooter>
       </Card>

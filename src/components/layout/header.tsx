@@ -27,7 +27,7 @@ import {
 const navLinks = [
   { href: '/tools', label: 'Tools' },
   { href: '/trending', label: 'Trending' },
-  { href: '/articles', label: 'Articles' },
+  { href: '/articles', label: 'AI News' },
 ];
 
 export function Header() {
