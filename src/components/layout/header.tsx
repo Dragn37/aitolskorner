@@ -9,7 +9,7 @@ import { Logo } from '@/components/icons';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { getAllCategories } from '@/lib/data';
+import { getAllUseCases } from '@/lib/data';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -25,8 +25,8 @@ import {
 } from '@/components/ui/accordion';
 
 const navLinks = [
-  { href: '/tools', label: 'Tools' },
-  { href: '/trending', label: 'Trending' },
+  { href: '/tools', label: 'Curated Tools' },
+  { href: '/trending', label: "What's Hot" },
   { href: '/articles', label: 'AI News' },
 ];
 
@@ -35,8 +35,8 @@ export function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [theme, setTheme] = useState('dark');
   const [mounted, setMounted] = useState(false);
-  const categories = getAllCategories();
-  const isCategoriesActive = pathname.startsWith('/categories');
+  const useCases = getAllUseCases();
+  const isUseCasesActive = pathname.startsWith('/use-cases');
 
   useEffect(() => {
     setMounted(true);
@@ -106,20 +106,20 @@ export function Header() {
                   <button
                     className={cn(
                       'flex items-center gap-1 font-medium text-muted-foreground transition-colors hover:text-foreground',
-                      isCategoriesActive && 'text-foreground'
+                      isUseCasesActive && 'text-foreground'
                     )}
                   >
-                    Categories <ChevronDown className="h-4 w-4" />
+                    Use Cases <ChevronDown className="h-4 w-4" />
                   </button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="start" className="w-[450px] grid grid-cols-3 gap-1 p-2">
-                  <DropdownMenuItem asChild className="col-span-3">
-                    <Link href="/categories" className="font-bold">All Categories</Link>
+                <DropdownMenuContent align="start">
+                  <DropdownMenuItem asChild>
+                    <Link href="/use-cases" className="font-bold">All Use Cases</Link>
                   </DropdownMenuItem>
-                  <DropdownMenuSeparator className="col-span-3 my-1" />
-                  {categories.map((category) => (
-                    <DropdownMenuItem key={category.slug} asChild>
-                      <Link href={`/categories/${category.slug}`}>{category.name}</Link>
+                  <DropdownMenuSeparator />
+                  {useCases.map((useCase) => (
+                    <DropdownMenuItem key={useCase.slug} asChild>
+                      <Link href={`/use-cases/${useCase.slug}`}>{useCase.name}</Link>
                     </DropdownMenuItem>
                   ))}
                 </DropdownMenuContent>
@@ -148,20 +148,20 @@ export function Header() {
                     <NavLink key={link.href} {...link} isMobile />
                   ))}
                    <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="categories" className="border-b-0">
-                      <AccordionTrigger className={cn("text-lg font-medium text-muted-foreground transition-colors hover:text-foreground hover:no-underline py-0 [&[data-state=open]>svg]:text-foreground", isCategoriesActive && 'text-foreground')}>
-                        Categories
+                    <AccordionItem value="use-cases" className="border-b-0">
+                      <AccordionTrigger className={cn("text-lg font-medium text-muted-foreground transition-colors hover:text-foreground hover:no-underline py-0 [&[data-state=open]>svg]:text-foreground", isUseCasesActive && 'text-foreground')}>
+                        Use Cases
                       </AccordionTrigger>
                       <AccordionContent className="pt-4 pl-4 flex flex-col space-y-4">
-                        <Link href="/categories" className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>All Categories</Link>
-                        {categories.map((category) => (
+                        <Link href="/use-cases" className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>All Use Cases</Link>
+                        {useCases.map((useCase) => (
                           <Link
-                            key={category.slug}
-                            href={`/categories/${category.slug}`}
+                            key={useCase.slug}
+                            href={`/use-cases/${useCase.slug}`}
                             className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
                             onClick={() => setMobileMenuOpen(false)}
                           >
-                            {category.name}
+                            {useCase.name}
                           </Link>
                         ))}
                       </AccordionContent>

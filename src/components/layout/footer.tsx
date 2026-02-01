@@ -40,9 +40,9 @@ export function Footer() {
                 Explore
               </h3>
               <ul className="space-y-3">
-                <FooterLink href="/tools">Tools</FooterLink>
-                <FooterLink href="/categories">Categories</FooterLink>
-                <FooterLink href="/trending">Trending</FooterLink>
+                <FooterLink href="/tools">Curated Tools</FooterLink>
+                <FooterLink href="/use-cases">Use Cases</FooterLink>
+                <FooterLink href="/trending">What's Hot</FooterLink>
                 <FooterLink href="/articles">AI News</FooterLink>
               </ul>
             </div>
