@@ -836,7 +836,7 @@ const articles: Article[] = [
   {
     id: '2',
     slug: 'ai-video-revolution-sora-pika-runway',
-    title: 'Sora, Pika, Runway: The AI Video Revolution is Here',
+    title: 'AI News, Pika, Runway: The AI Video Revolution is Here',
     excerpt: 'From OpenAI\'s Sora to competitors like Pika and Runway, text-to-video AI is changing filmmaking and content creation forever. How does it work and what\'s next?',
     date: '2024-07-18',
     author: 'Alex Ray',
@@ -913,4 +913,13 @@ export function getUseCaseBySlug(slug: string): UseCase | undefined {
 
 export function getToolsByUseCase(useCaseSlug: string): Tool[] {
   return tools.filter((tool) => tool.useCases?.includes(useCaseSlug));
+}
+
+export function getAlternativeTools(currentTool: Tool): Tool[] {
+  return tools
+    .filter(
+      (tool) =>
+        tool.category === currentTool.category && tool.id !== currentTool.id
+    )
+    .slice(0, 4);
 }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ExternalLink } from 'lucide-react';
 
-import { getTools, getToolBySlug } from '@/lib/data';
+import { getTools, getToolBySlug, getAlternativeTools } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -14,6 +14,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import ToolCard from '@/components/tool-card';
 
 type Props = {
   params: { slug: string };
@@ -87,6 +88,7 @@ export default function ToolPage({ params }: Props) {
   }
 
   const logo = PlaceHolderImages.find((img) => img.id === tool.logoUrlId);
+  const alternativeTools = getAlternativeTools(tool);
 
   return (
     <>
@@ -148,7 +150,7 @@ export default function ToolPage({ params }: Props) {
             {logo && (
               <div className="relative w-32 h-32 flex-shrink-0">
                 <Image
-                  src={`https://www.google.com/s2/favicons?sz=128&domain=${tool.website}`}
+                  src={logo.imageUrl}
                   alt={`${tool.name} logo`}
                   width={128}
                   height={128}
@@ -198,6 +200,19 @@ export default function ToolPage({ params }: Props) {
               ))}
             </CardContent>
           </Card>
+          
+          {alternativeTools.length > 0 && (
+            <section className="mt-16">
+              <h2 className="text-3xl font-bold font-headline mb-8 text-center">
+                Alternatives to {tool.name}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                {alternativeTools.map((altTool) => (
+                  <ToolCard key={altTool.id} tool={altTool} />
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </>
