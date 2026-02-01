@@ -40,6 +40,8 @@ export interface Article {
   author: string;
   imageUrlId: string;
   content: string;
+  tags?: string[];
+  readTime?: number;
 }
 
 export interface Category {
@@ -49,7 +51,7 @@ export interface Category {
 }
 
 export interface UseCase {
-  slug: string;
+  slug:string;
   name: string;
   description: string;
 }

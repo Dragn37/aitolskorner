@@ -2384,6 +2384,8 @@ const articles: Article[] = [
     author: 'AI Tools Korner Staff',
     imageUrlId: 'article-image-openclaw',
     content: OpenClawArticle.content,
+    tags: ['Deep Dive', 'Security'],
+    readTime: 7,
   },
   {
     id: '4',
@@ -2394,6 +2396,8 @@ const articles: Article[] = [
     author: NvideaArticle.author,
     imageUrlId: 'article-image-4',
     content: NvideaArticle.content,
+    tags: ['Industry News', 'Analysis'],
+    readTime: 4,
   },
   {
     id: '1',
@@ -2404,6 +2408,8 @@ const articles: Article[] = [
     author: 'AI Tools Korner Staff',
     imageUrlId: 'article-image-1',
     content: article1Content,
+    tags: ['Ethics', 'Social'],
+    readTime: 2,
   },
   {
     id: '2',
@@ -2414,6 +2420,8 @@ const articles: Article[] = [
     author: 'Alex Ray',
     imageUrlId: 'article-image-2',
     content: article2Content,
+    tags: ['Generative AI', 'Video'],
+    readTime: 2,
   },
   {
     id: '3',
@@ -2424,6 +2432,8 @@ const articles: Article[] = [
     author: 'Jane Doe',
     imageUrlId: 'article-image-3',
     content: article3Content,
+    tags: ['Productivity', 'Future of Work'],
+    readTime: 2,
   }
 ];
 
