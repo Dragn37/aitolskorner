@@ -23,7 +23,9 @@ interface ToolCardProps {
 
 export default function ToolCard({ tool }: ToolCardProps) {
   const logo = PlaceHolderImages.find((img) => img.id === tool.logoUrlId);
-  const faviconUrl = logo?.imageUrl ?? `https://www.google.com/s2/favicons?sz=64&domain=${new URL(tool.website).hostname}`;
+  const faviconUrl =
+    logo?.imageUrl ??
+    `https://www.google.com/s2/favicons?sz=64&domain=${new URL(tool.website).hostname}`;
 
   return (
     <Card className="flex flex-col h-full group relative hover:border-primary/50 transition-colors">
@@ -64,18 +66,24 @@ export default function ToolCard({ tool }: ToolCardProps) {
         <CardDescription>{tool.description}</CardDescription>
       </CardContent>
       <CardFooter className="pt-4 justify-between items-center">
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {tool.trending && <Badge variant="secondary">Popular</Badge>}
+          {tool.useCases?.slice(0, 1).map((useCase) => (
+            <Badge key={useCase} variant="outline">
+              {useCase.charAt(0).toUpperCase() + useCase.slice(1)}
+            </Badge>
+          ))}
         </div>
-        <a
-          href={tool.website}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={(e) => e.stopPropagation()}
-          className="z-10 text-sm font-medium text-primary hover:underline flex items-center gap-1"
-        >
-          Visit <ExternalLink className="h-4 w-4" />
-        </a>
+        <Button asChild size="sm" className="z-10 shrink-0">
+          <a
+            href={tool.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+          >
+            Visit <ExternalLink />
+          </a>
+        </Button>
       </CardFooter>
     </Card>
   );
