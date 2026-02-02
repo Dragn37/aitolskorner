@@ -1,6 +1,6 @@
 import { getTools } from '@/lib/data';
-import ToolCard from '@/components/tool-card';
 import type { Metadata } from 'next';
+import ToolGrid from '@/components/tool-grid';
 
 export const metadata: Metadata = {
   title: 'Curated Tools',
@@ -24,11 +24,7 @@ export default function ToolsPage() {
         </div>
       </div>
       <div className="container mx-auto px-4 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
-          {tools.map((tool) => (
-            <ToolCard key={tool.id} tool={tool} />
-          ))}
-        </div>
+        <ToolGrid tools={tools} />
       </div>
     </div>
   );
