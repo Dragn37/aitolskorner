@@ -53,10 +53,8 @@ const AuthorAvatar = ({ authorName }: { authorName: string }) => {
 export default function ArticlesPage() {
   const articles = getArticles();
   const featuredArticle = articles[0];
-  const otherArticles = articles.slice(1, 7);
+  const otherArticles = articles.slice(1);
   const featuredImage = PlaceHolderImages.find(img => img.id === featuredArticle.imageUrlId);
-
-  const filterCategories = ["Latest", "Tutorials", "Daily News", "Reviews", "Interviews"];
 
   return (
     <div>
@@ -116,15 +114,6 @@ export default function ArticlesPage() {
             </Link>
           </section>
         )}
-
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
-          {filterCategories.map((cat) => (
-            <Button key={cat} variant={cat === "Latest" ? "default" : "outline"} className="rounded-full">
-              {cat}
-            </Button>
-          ))}
-        </div>
-
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {otherArticles.map((article) => (
