@@ -22,7 +22,7 @@
       "id": "logo-copy-ai",
       "description": "Copy.ai logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=copy.ai&sz=128",
-      "imageHint": "copy.ai logo"
+      "imageHint": "copy logo"
     },
     {
       "id": "logo-perplexity",
@@ -441,7 +441,7 @@
     {
       "id": "article-image-nvidia",
       "description": "Thumbnail for Nvidia OpenAI investment article",
-      "imageUrl": "",
+      "imageUrl": "https://i.pinimg.com/736x/a4/58/e6/a458e631ff1b85398e11f7afab0f142b.jpg",
       "imageHint": "nvidia openai"
     },
     {
@@ -772,7 +772,7 @@
       "id": "logo-reclaim-ai",
       "description": "Reclaim AI logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=reclaim.ai&sz=128",
-      "imageHint": "reclaim ai logo"
+      "imageHint": "reclaim_ai logo"
     },
     {
       "id": "logo-superhuman",

@@ -1,6 +1,6 @@
 export const NvideaArticle = {
   title: "Nvidia Halts Reported $100 Billion Investment Plan in OpenAI: A Deep Dive into AI Industry Dynamics",
-  image: "https://example.com/images/nvidia-openai-investment-halt.jpg", // Placeholder image URL, should be replaced with a relevant, high-quality image.
+  image: "https://i.pinimg.com/736x/a4/58/e6/a458e631ff1b85398e11f7afab0f142b.jpg", // Placeholder image URL, should be replaced with a relevant, high-quality image.
   altText: "Nvidia and OpenAI logos with a stop sign, representing the halted investment plan and AI industry dynamics.",
   description: "Explore the breaking news of Nvidia reportedly pausing its massive $100 billion investment in OpenAI. Understand the underlying tensions, broader implications for AI funding, and the evolving competitive landscape between these tech giants. Get insights into OpenAI's diversified hardware strategy and Nvidia's re-evaluation of strategic partnerships in the rapidly changing artificial intelligence sector.",
   tags: [
