@@ -1,6 +1,6 @@
 export const OpenClawArticle = {
   title: "OpenClaw (Moltbot): The Viral AI Agent Phenomenon & 'Lethal Trifecta' Security Crisis",
-  image: "https://example.com/images/openclaw-moltbot-phenomenon.jpg", // Placeholder image URL
+  image: "https://i.pinimg.com/736x/75/c7/f6/75c7f628290a88d693ccd44723a9a5fc.jpg",
   altText: "An abstract image of a robotic claw and binary code, representing the OpenClaw AI agent phenomenon.",
   description: "A deep dive into the explosive rise of OpenClaw (formerly Moltbot), the AI-only social network 'Moltbook,' and the critical 'Lethal Trifecta' security vulnerability. Explore the market metrics, viral signals, and future implications of this autonomous agent ecosystem.",
   tags: [
@@ -95,10 +95,10 @@ export const OpenClawArticle = {
     <p>The OpenClaw saga is a microcosm of the current AI landscape: explosive innovation, chaotic growth, emergent social dynamics, and critical, high-stakes risks. It exemplifies the tension between the controlled, safety-focused development of centralized labs and the wild, unpredictable, but incredibly rapid progress of open-source movements. Whether OpenClaw can survive its own success, patch its security holes, and navigate the legal minefield remains to be seen. But one thing is certain: the genie of autonomous AI agents is out of the bottle, and they are already busy building a world of their own.</p>
   `,
   author: "AI Tools Korner Staff",
-  publicationDate: "2026-01-31T14:00:00Z", // Fictional future date
-  lastUpdated: "2026-01-31T14:00:00Z", // Fictional future date
+  publicationDate: "2026-01-31T14:00:00Z",
+  lastUpdated: "2026-01-31T14:00:00Z",
   publisher: "AI Tools Korner",
-  url: "https://www.aitolskorner.com/articles/openclaw-moltbot-viral-phenomenon", // Fictional URL
+  url: "https://www.aitolskorner.com/articles/openclaw-moltbot-viral-phenomenon",
   schema: {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -108,7 +108,7 @@ export const OpenClawArticle = {
     },
     "headline": "OpenClaw (Moltbot): The Viral AI Agent Phenomenon & 'Lethal Trifecta' Security Crisis",
     "image": [
-      "https://www.aitolskorner.com/og-images/articles/openclaw-moltbot-viral-phenomenon.jpg" // Fictional OG image
+      "https://i.pinimg.com/736x/75/c7/f6/75c7f628290a88d693ccd44723a9a5fc.jpg"
     ],
     "datePublished": "2026-01-31T14:00:00Z",
     "dateModified": "2026-01-31T14:00:00Z",

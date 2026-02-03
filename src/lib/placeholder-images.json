@@ -429,7 +429,7 @@
     {
       "id": "article-image-openclaw",
       "description": "Abstract image representing the OpenClaw AI agent phenomenon",
-      "imageUrl": "https://images.unsplash.com/photo-1659018966820-de07c94e0d01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8QUklMjByb2JvdHxlbnwwfHx8fDE3Njk4NjI1NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.pinimg.com/736x/75/c7/f6/75c7f628290a88d693ccd44723a9a5fc.jpg",
       "imageHint": "AI robot"
     },
     {
@@ -1216,7 +1216,7 @@
       "id": "logo-komo-ai",
       "description": "Komo AI logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=komo.ai&sz=128",
-      "imageHint": "komo ai logo"
+      "imageHint": "komo.ai logo"
     },
     {
       "id": "logo-andi",
