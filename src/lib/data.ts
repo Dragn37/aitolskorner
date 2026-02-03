@@ -5,6 +5,7 @@ import { content as article3Content } from './articles/ai-agents-autonomous-work
 import { NvideaArticle } from './articles/Nvidia-Halts-Reported-$100-Billion-Investment-Plan-in-OpenAI-A-Deep-Dive-into-AI-Industry-Dynamics';
 import { OpenClawArticle } from './articles/openclaw-moltbot-viral-phenomenon';
 import { OperatorArticle } from './articles/openai-operator-action-era';
+import { NerovetArticle } from './articles/nerovet-ai-dental';
 
 const CATEGORIES: Category[] = [
   { slug: 'writing', name: 'Writing', description: 'Tools to assist with writing, editing, and content creation.' },
@@ -2209,7 +2210,7 @@ const tools: Tool[] = [
     slug: 'tars',
     name: 'Tars',
     description: 'Conversational landing pages and chatbots',
-    longDescription: 'Tars creates conversational landing pages and chatbots that replace traditional forms to boost conversions and engagement.',
+    longDescription: 'Tars creates conversational landing pages and chatbots that replace traditional presidential to boost conversions and engagement.',
     category: 'Chatbot',
     trending: false,
     logoUrlId: 'logo-tars',
@@ -2376,6 +2377,18 @@ const tools: Tool[] = [
 
 
 const articles: Article[] = [
+  {
+    id: '7',
+    slug: 'nerovet-ai-dental-analysis',
+    title: NerovetArticle.title,
+    excerpt: NerovetArticle.description,
+    date: NerovetArticle.date,
+    author: NerovetArticle.author,
+    imageUrlId: 'article-image-nerovet',
+    content: NerovetArticle.content,
+    tags: ['Dental AI', 'Analysis', 'Health Tech'],
+    readTime: 18,
+  },
   {
     id: '6',
     slug: 'openai-operator-action-era',

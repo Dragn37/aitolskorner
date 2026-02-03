@@ -445,6 +445,12 @@
       "imageHint": "nvidia openai"
     },
     {
+      "id": "article-image-nerovet",
+      "description": "Thumbnail for Nerovet AI Dental article",
+      "imageUrl": "https://i.pinimg.com/736x/83/78/ca/8378cae1549fdd8eb3720dc8bf4da3a4.jpg",
+      "imageHint": "dental ai"
+    },
+    {
       "id": "logo-writesonic",
       "description": "Writesonic logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",
@@ -742,7 +748,7 @@
       "id": "logo-warp-ai",
       "description": "Warp AI logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=warp.dev&sz=128",
-      "imageHint": "warp ai logo"
+      "imageHint": "warp dev logo"
     },
     {
       "id": "logo-otter-ai",
