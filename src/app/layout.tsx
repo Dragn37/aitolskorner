@@ -69,7 +69,6 @@ export const metadata: Metadata = {
     language: 'English',
     'revisit-after': '1 days',
   },
-  themeColor: '#000000',
 };
 
 export default function RootLayout({
