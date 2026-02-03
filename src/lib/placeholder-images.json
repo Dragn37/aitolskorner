@@ -433,6 +433,18 @@
       "imageHint": "AI robot"
     },
     {
+      "id": "article-image-operator",
+      "description": "Minimalist dark background with white abstract elements",
+      "imageUrl": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=1000",
+      "imageHint": "minimalist dark"
+    },
+    {
+      "id": "article-image-nvidia",
+      "description": "Thumbnail for Nvidia OpenAI investment article",
+      "imageUrl": "",
+      "imageHint": "nvidia openai"
+    },
+    {
       "id": "logo-writesonic",
       "description": "Writesonic logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",

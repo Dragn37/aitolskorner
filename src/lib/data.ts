@@ -4,6 +4,7 @@ import { content as article2Content } from './articles/ai-video-revolution-sora-
 import { content as article3Content } from './articles/ai-agents-autonomous-workforce';
 import { NvideaArticle } from './articles/Nvidia-Halts-Reported-$100-Billion-Investment-Plan-in-OpenAI-A-Deep-Dive-into-AI-Industry-Dynamics';
 import { OpenClawArticle } from './articles/openclaw-moltbot-viral-phenomenon';
+import { OperatorArticle } from './articles/openai-operator-action-era';
 
 const CATEGORIES: Category[] = [
   { slug: 'writing', name: 'Writing', description: 'Tools to assist with writing, editing, and content creation.' },
@@ -2376,6 +2377,18 @@ const tools: Tool[] = [
 
 const articles: Article[] = [
   {
+    id: '6',
+    slug: 'openai-operator-action-era',
+    title: OperatorArticle.title,
+    excerpt: OperatorArticle.description,
+    date: OperatorArticle.date,
+    author: OperatorArticle.author,
+    imageUrlId: 'article-image-operator',
+    content: OperatorArticle.content,
+    tags: ['Breaking News', 'Action Era'],
+    readTime: 5,
+  },
+  {
     id: '5',
     slug: 'openclaw-moltbot-viral-phenomenon',
     title: OpenClawArticle.title,
@@ -2391,13 +2404,13 @@ const articles: Article[] = [
     id: '4',
     slug: 'nvidia-halts-investment-in-openai-deep-dive',
     title: NvideaArticle.title,
-    excerpt: "Nvidia has reportedly stalled its ambitious plan to invest up to $100 billion in OpenAI. This analysis covers the breakdown, tensions, and implications for the AI industry.",
-    date: '2024-07-23',
+    excerpt: NvideaArticle.description,
+    date: '2026-02-01',
     author: NvideaArticle.author,
-    imageUrlId: 'article-image-4',
+    imageUrlId: 'article-image-nvidia',
     content: NvideaArticle.content,
     tags: ['Industry News', 'Analysis'],
-    readTime: 4,
+    readTime: 6,
   },
   {
     id: '1',
