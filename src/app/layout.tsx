@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     apple: 'https://storage.googleapis.com/studiopublic/atk-favicon.png',
   },
   verification: {
-    google: 'XyF7U7y05vNtwZZzMW-LBSrFrK4_Ys2LhCVlnosRH7c',
+    google: 'XyF7U7y05vNtwZZzMW-<meta name="google-site-verification" content="XyF7U7y05vNtwZZzMW-LBSrFrK4_Ys2LhCVlnosRH7c" />',
   },
   other: {
     'Content-Type': 'text/html; charset=utf-8',
