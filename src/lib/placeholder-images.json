@@ -868,7 +868,7 @@
       "id": "logo-adcreative-ai",
       "description": "AdCreative.ai logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=adcreative.ai&sz=128",
-      "imageHint": "adcreative.ai logo"
+      "imageHint": "adcreative ai logo"
     },
     {
       "id": "logo-persado",
@@ -1216,7 +1216,7 @@
       "id": "logo-komo-ai",
       "description": "Komo AI logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=komo.ai&sz=128",
-      "imageHint": "komo.ai logo"
+      "imageHint": "komo ai logo"
     },
     {
       "id": "logo-andi",
@@ -1235,6 +1235,534 @@
       "description": "Waldo logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=waldo.fyi&sz=128",
       "imageHint": "waldo logo"
+    },
+    {
+      "id": "logo-yep",
+      "description": "Yep logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=yep.com&sz=128",
+      "imageHint": "yep logo"
+    },
+    {
+      "id": "logo-glean",
+      "description": "Glean logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=glean.com&sz=128",
+      "imageHint": "glean logo"
+    },
+    {
+      "id": "logo-algolia",
+      "description": "Algolia logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=algolia.com&sz=128",
+      "imageHint": "algolia logo"
+    },
+    {
+      "id": "logo-searchgpt",
+      "description": "SearchGPT logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+      "imageHint": "searchgpt logo"
+    },
+    {
+      "id": "logo-omnisearch",
+      "description": "Omnisearch logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=omnisearch.ai&sz=128",
+      "imageHint": "omnisearch logo"
+    },
+    {
+      "id": "logo-figma-ai",
+      "description": "Figma AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=figma.com&sz=128",
+      "imageHint": "figma logo"
+    },
+    {
+      "id": "logo-uizard",
+      "description": "Uizard logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=uizard.io&sz=128",
+      "imageHint": "uizard logo"
+    },
+    {
+      "id": "logo-framer-ai",
+      "description": "Framer logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=framer.com&sz=128",
+      "imageHint": "framer logo"
+    },
+    {
+      "id": "logo-khroma",
+      "description": "Khroma logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=khroma.co&sz=128",
+      "imageHint": "khroma logo"
+    },
+    {
+      "id": "logo-diagram",
+      "description": "Diagram logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=diagram.com&sz=128",
+      "imageHint": "diagram logo"
+    },
+    {
+      "id": "logo-designs-ai",
+      "description": "Designs.ai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=designs.ai&sz=128",
+      "imageHint": "designs ai logo"
+    },
+    {
+      "id": "logo-looka",
+      "description": "Looka logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=looka.com&sz=128",
+      "imageHint": "looka logo"
+    },
+    {
+      "id": "logo-autodraw",
+      "description": "Autodraw logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=autodraw.com&sz=128",
+      "imageHint": "autodraw logo"
+    },
+    {
+      "id": "logo-remove-bg",
+      "description": "Remove.bg logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=remove.bg&sz=128",
+      "imageHint": "remove bg logo"
+    },
+    {
+      "id": "logo-cleanup-pictures",
+      "description": "Cleanup.pictures logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=cleanup.pictures&sz=128",
+      "imageHint": "cleanup pictures logo"
+    },
+    {
+      "id": "logo-vectorizer-ai",
+      "description": "Vectorizer.AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=vectorizer.ai&sz=128",
+      "imageHint": "vectorizer logo"
+    },
+    {
+      "id": "logo-booth-ai",
+      "description": "Booth.AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=booth.ai&sz=128",
+      "imageHint": "booth logo"
+    },
+    {
+      "id": "logo-topazlabs",
+      "description": "Topaz Photo AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=topazlabs.com&sz=128",
+      "imageHint": "topaz logo"
+    },
+    {
+      "id": "logo-designify",
+      "description": "Designify logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=designify.com&sz=128",
+      "imageHint": "designify logo"
+    },
+    {
+      "id": "logo-colormind",
+      "description": "Colormind logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=colormind.io&sz=128",
+      "imageHint": "colormind logo"
+    },
+    {
+      "id": "logo-supabase",
+      "description": "Supabase logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=supabase.com&sz=128",
+      "imageHint": "supabase logo"
+    },
+    {
+      "id": "logo-railway",
+      "description": "Railway logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=railway.app&sz=128",
+      "imageHint": "railway logo"
+    },
+    {
+      "id": "logo-render",
+      "description": "Render logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
+      "imageHint": "render logo"
+    },
+    {
+      "id": "logo-retool",
+      "description": "Retool logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=retool.com&sz=128",
+      "imageHint": "retool logo"
+    },
+    {
+      "id": "logo-bubble",
+      "description": "Bubble logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=bubble.io&sz=128",
+      "imageHint": "bubble logo"
+    },
+    {
+      "id": "logo-webflow",
+      "description": "Webflow logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=webflow.com&sz=128",
+      "imageHint": "webflow logo"
+    },
+    {
+      "id": "logo-glideapps",
+      "description": "Glide logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=glideapps.com&sz=128",
+      "imageHint": "glide logo"
+    },
+    {
+      "id": "logo-make",
+      "description": "Make logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=make.com&sz=128",
+      "imageHint": "make logo"
+    },
+    {
+      "id": "logo-n8n",
+      "description": "n8n logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=n8n.io&sz=128",
+      "imageHint": "n8n logo"
+    },
+    {
+      "id": "logo-postman",
+      "description": "Postman logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=postman.com&sz=128",
+      "imageHint": "postman logo"
+    },
+    {
+      "id": "logo-plasmic",
+      "description": "Plasmic logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=plasmic.app&sz=128",
+      "imageHint": "plasmic logo"
+    },
+    {
+      "id": "logo-deta",
+      "description": "Deta logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=deta.sh&sz=128",
+      "imageHint": "deta logo"
+    },
+    {
+      "id": "logo-flutterflow",
+      "description": "FlutterFlow logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=flutterflow.io&sz=128",
+      "imageHint": "flutterflow logo"
+    },
+    {
+      "id": "logo-semanticscholar",
+      "description": "Semantic Scholar logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=semanticscholar.org&sz=128",
+      "imageHint": "semantic scholar logo"
+    },
+    {
+      "id": "logo-scite",
+      "description": "Scite logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=scite.ai&sz=128",
+      "imageHint": "scite logo"
+    },
+    {
+      "id": "logo-litmaps",
+      "description": "Litmaps logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=litmaps.com&sz=128",
+      "imageHint": "litmaps logo"
+    },
+    {
+      "id": "logo-researchrabbit",
+      "description": "Research Rabbit logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=researchrabbit.ai&sz=128",
+      "imageHint": "research rabbit logo"
+    },
+    {
+      "id": "logo-scholarcy",
+      "description": "Scholarcy logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=scholarcy.com&sz=128",
+      "imageHint": "scholarcy logo"
+    },
+    {
+      "id": "logo-iris-ai",
+      "description": "Iris.ai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=iris.ai&sz=128",
+      "imageHint": "iris ai logo"
+    },
+    {
+      "id": "logo-zotero",
+      "description": "Zotero logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=zotero.org&sz=128",
+      "imageHint": "zotero logo"
+    },
+    {
+      "id": "logo-mendeley",
+      "description": "Mendeley logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=mendeley.com&sz=128",
+      "imageHint": "mendeley logo"
+    },
+    {
+      "id": "logo-scispace",
+      "description": "SciSpace logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=scispace.com&sz=128",
+      "imageHint": "scispace logo"
+    },
+    {
+      "id": "logo-connectedpapers",
+      "description": "Connected Papers logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=connectedpapers.com&sz=128",
+      "imageHint": "connected papers logo"
+    },
+    {
+      "id": "logo-paperpal",
+      "description": "Paperpal logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=paperpal.com&sz=128",
+      "imageHint": "paperpal logo"
+    },
+    {
+      "id": "logo-jenni-ai",
+      "description": "Jenni AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=jenni.ai&sz=128",
+      "imageHint": "jenni ai logo"
+    },
+    {
+      "id": "logo-lateral",
+      "description": "Lateral logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=lateral.io&sz=128",
+      "imageHint": "lateral logo"
+    },
+    {
+      "id": "logo-explainpaper",
+      "description": "Explainpaper logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=explainpaper.com&sz=128",
+      "imageHint": "explainpaper logo"
+    },
+    {
+      "id": "logo-papersgpt",
+      "description": "Papers GPT logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=papersgpt.com&sz=128",
+      "imageHint": "papers gpt logo"
+    },
+    {
+      "id": "logo-beautiful-ai",
+      "description": "Beautiful.ai logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=beautiful.ai&sz=128",
+      "imageHint": "beautiful ai logo"
+    },
+    {
+      "id": "logo-tome-app",
+      "description": "Tome logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=tome.app&sz=128",
+      "imageHint": "tome logo"
+    },
+    {
+      "id": "logo-pitch",
+      "description": "Pitch logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=pitch.com&sz=128",
+      "imageHint": "pitch logo"
+    },
+    {
+      "id": "logo-decktopus",
+      "description": "Decktopus logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=decktopus.com&sz=128",
+      "imageHint": "decktopus logo"
+    },
+    {
+      "id": "logo-slidebean",
+      "description": "Slidebean logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=slidebean.com&sz=128",
+      "imageHint": "slidebean logo"
+    },
+    {
+      "id": "logo-presentations-ai",
+      "description": "Presentations.AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=presentations.ai&sz=128",
+      "imageHint": "presentations ai logo"
+    },
+    {
+      "id": "logo-slidesai",
+      "description": "SlidesAI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=slidesai.io&sz=128",
+      "imageHint": "slidesai logo"
+    },
+    {
+      "id": "logo-plusdocs",
+      "description": "Plus AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=plusdocs.com&sz=128",
+      "imageHint": "plus ai logo"
+    },
+    {
+      "id": "logo-prezi",
+      "description": "Prezi logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=prezi.com&sz=128",
+      "imageHint": "prezi logo"
+    },
+    {
+      "id": "logo-visme",
+      "description": "Visme logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=visme.co&sz=128",
+      "imageHint": "visme logo"
+    },
+    {
+      "id": "logo-ludus",
+      "description": "Ludus logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=ludus.one&sz=128",
+      "imageHint": "ludus logo"
+    },
+    {
+      "id": "logo-mentimeter",
+      "description": "Mentimeter logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=mentimeter.com&sz=128",
+      "imageHint": "mentimeter logo"
+    },
+    {
+      "id": "logo-genial-ly",
+      "description": "Genially logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=genial.ly&sz=128",
+      "imageHint": "genially logo"
+    },
+    {
+      "id": "logo-haikudeck",
+      "description": "Haiku Deck logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=haikudeck.com&sz=128",
+      "imageHint": "haiku deck logo"
+    },
+    {
+      "id": "logo-wellsaidlabs",
+      "description": "WellSaid Labs logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=wellsaidlabs.com&sz=128",
+      "imageHint": "wellsaid labs logo"
+    },
+    {
+      "id": "logo-lovo-ai",
+      "description": "LOVO AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=lovo.ai&sz=128",
+      "imageHint": "lovo ai logo"
+    },
+    {
+      "id": "logo-respeecher",
+      "description": "Respeecher logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=respeecher.com&sz=128",
+      "imageHint": "respeecher logo"
+    },
+    {
+      "id": "logo-synthesys",
+      "description": "Synthesys logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=synthesys.io&sz=128",
+      "imageHint": "synthesys logo"
+    },
+    {
+      "id": "logo-listnr",
+      "description": "Listnr logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=listnr.tech&sz=128",
+      "imageHint": "listnr logo"
+    },
+    {
+      "id": "logo-uberduck",
+      "description": "Uberduck logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=uberduck.ai&sz=128",
+      "imageHint": "uberduck logo"
+    },
+    {
+      "id": "logo-fakeyou",
+      "description": "FakeYou logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=fakeyou.com&sz=128",
+      "imageHint": "fakeyou logo"
+    },
+    {
+      "id": "logo-naturalreaders",
+      "description": "NaturalReader logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=naturalreaders.com&sz=128",
+      "imageHint": "naturalreader logo"
+    },
+    {
+      "id": "logo-revoicer",
+      "description": "Revoicer logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=revoicer.com&sz=128",
+      "imageHint": "revoicer logo"
+    },
+    {
+      "id": "logo-vbee-ai",
+      "description": "Vbee AI logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=vbee.ai&sz=128",
+      "imageHint": "vbee ai logo"
+    },
+    {
+      "id": "logo-readspeaker",
+      "description": "ReadSpeaker logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=readspeaker.com&sz=128",
+      "imageHint": "readspeaker logo"
+    },
+    {
+      "id": "logo-aws",
+      "description": "AWS logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128",
+      "imageHint": "aws logo"
+    },
+    {
+      "id": "logo-google-cloud",
+      "description": "Google Cloud logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=128",
+      "imageHint": "google cloud logo"
+    },
+    {
+      "id": "logo-azure",
+      "description": "Microsoft Azure logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=azure.microsoft.com&sz=128",
+      "imageHint": "azure logo"
+    },
+    {
+      "id": "logo-digitalocean",
+      "description": "DigitalOcean logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=digitalocean.com&sz=128",
+      "imageHint": "digitalocean logo"
+    },
+    {
+      "id": "logo-linode",
+      "description": "Linode logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=linode.com&sz=128",
+      "imageHint": "linode logo"
+    },
+    {
+      "id": "logo-cloudflare",
+      "description": "Cloudflare logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=128",
+      "imageHint": "cloudflare logo"
+    },
+    {
+      "id": "logo-heroku",
+      "description": "Heroku logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=heroku.com&sz=128",
+      "imageHint": "heroku logo"
+    },
+    {
+      "id": "logo-firebase",
+      "description": "Firebase logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=firebase.google.com&sz=128",
+      "imageHint": "firebase logo"
+    },
+    {
+      "id": "logo-pages-github",
+      "description": "GitHub Pages logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      "imageHint": "github pages logo"
+    },
+    {
+      "id": "logo-fly-io",
+      "description": "Fly.io logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=fly.io&sz=128",
+      "imageHint": "fly io logo"
+    },
+    {
+      "id": "logo-planetscale",
+      "description": "PlanetScale logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=planetscale.com&sz=128",
+      "imageHint": "planetscale logo"
+    },
+    {
+      "id": "logo-mongodb",
+      "description": "MongoDB Atlas logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=mongodb.com&sz=128",
+      "imageHint": "mongodb logo"
+    },
+    {
+      "id": "logo-vultr",
+      "description": "Vultr logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=vultr.com&sz=128",
+      "imageHint": "vultr logo"
+    },
+    {
+      "id": "logo-hetzner",
+      "description": "Hetzner logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=hetzner.com&sz=128",
+      "imageHint": "hetzner logo"
+    },
+    {
+      "id": "logo-hostinger",
+      "description": "Hostinger logo",
+      "imageUrl": "https://www.google.com/s2/favicons?domain=hostinger.com&sz=128",
+      "imageHint": "hostinger logo"
     }
   ]
 }
