@@ -1,20 +1,62 @@
 'use client';
 
 import { Play } from 'lucide-react';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 
 const aioItems = [
-  "AI Drafting",
-  "Workflow Automation",
-  "Repurposing Systems",
-  "Content Templates",
-  "Internal Linking",
-  "Content Scheduling",
-  "Streamlined Processes",
-  "Multi-Format Output",
-  "AI Audits",
-  "Scalable SEO",
-  "Template-Based Repurposing",
-  "Volume Publishing"
+  { 
+    title: "AI Drafting", 
+    description: "Generating high-quality initial outlines and full-length content drafts using advanced LLMs." 
+  },
+  { 
+    title: "Workflow Automation", 
+    description: "Connecting disparate platforms to handle repetitive manual tasks automatically without human intervention." 
+  },
+  { 
+    title: "Repurposing Systems", 
+    description: "Converting a single content asset (like a blog post) into multiple social media formats and videos." 
+  },
+  { 
+    title: "Content Templates", 
+    description: "Standardizing high-performing content structures to ensure consistency and speed in output." 
+  },
+  { 
+    title: "Internal Linking", 
+    description: "Strategically connecting relevant pages on your site to improve SEO and user navigation." 
+  },
+  { 
+    title: "Content Scheduling", 
+    description: "Automating the distribution of content across platforms at optimal times for engagement." 
+  },
+  { 
+    title: "Streamlined Processes", 
+    description: "Removing bottlenecks in the content lifecycle through optimized digital workflows." 
+  },
+  { 
+    title: "Multi-Format Output", 
+    description: "Delivering content simultaneously across text, image, and video mediums." 
+  },
+  { 
+    title: "AI Audits", 
+    description: "Using artificial intelligence to evaluate existing content for SEO, quality, and accuracy." 
+  },
+  { 
+    title: "Scalable SEO", 
+    description: "Implementing data-driven strategies that allow search visibility to grow exponentially." 
+  },
+  { 
+    title: "Template-Based Repurposing", 
+    description: "Using predefined structures to quickly transform core ideas into new visual or written assets." 
+  },
+  { 
+    title: "Volume Publishing", 
+    description: "Safely increasing the frequency of content output while maintaining high editorial standards." 
+  }
 ];
 
 export function AioSection() {
@@ -33,21 +75,29 @@ export function AioSection() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-3 md:gap-4 max-w-5xl mx-auto">
-          {aioItems.map((item, index) => (
-            <div 
-              key={index}
-              className="flex items-center gap-3 bg-card border border-border px-5 py-3 rounded-lg shadow-sm hover:shadow-md hover:border-primary/50 hover:-translate-y-0.5 transition-all duration-300 group cursor-default"
-            >
-              <div className="bg-primary/10 p-1 rounded-sm group-hover:bg-primary/20 transition-colors">
-                <Play className="w-3 h-3 fill-primary text-primary" />
-              </div>
-              <span className="font-medium text-sm md:text-base whitespace-nowrap">
-                {item}
-              </span>
-            </div>
-          ))}
-        </div>
+        <TooltipProvider>
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4 max-w-5xl mx-auto">
+            {aioItems.map((item, index) => (
+              <Tooltip key={index}>
+                <TooltipTrigger asChild>
+                  <div 
+                    className="flex items-center gap-3 bg-card border border-border px-5 py-3 rounded-lg shadow-sm hover:shadow-md hover:border-primary/50 hover:-translate-y-0.5 transition-all duration-300 group cursor-help"
+                  >
+                    <div className="bg-primary/10 p-1 rounded-sm group-hover:bg-primary/20 transition-colors">
+                      <Play className="w-3 h-3 fill-primary text-primary" />
+                    </div>
+                    <span className="font-medium text-sm md:text-base whitespace-nowrap">
+                      {item.title}
+                    </span>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent className="max-w-xs text-center p-3">
+                  <p>{item.description}</p>
+                </TooltipContent>
+              </Tooltip>
+            ))}
+          </div>
+        </TooltipProvider>
       </div>
       
       {/* Subtle background decoration */}
