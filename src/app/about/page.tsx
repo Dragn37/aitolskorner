@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { AioSection } from '@/components/aio-section';
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -8,17 +9,17 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <div className="max-w-3xl mx-auto">
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold font-headline leading-tight mb-4">
-            About AI Tools Korner
+      <div className="max-w-4xl mx-auto">
+        <header className="mb-12 text-center">
+          <h1 className="text-4xl md:text-6xl font-bold font-headline leading-tight mb-6">
+            About <span className="text-primary">AI Tools Korner</span>
           </h1>
-          <p className="text-lg text-muted-foreground">
-            Your trusted guide in the world of Artificial Intelligence.
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Your trusted guide in the world of Artificial Intelligence, helping you separate the signal from the noise.
           </p>
         </header>
 
-        <div className="article-content space-y-6">
+        <div className="article-content space-y-8 mb-16">
           <p>
             Welcome to AI Tools Korner, your curated directory and knowledge hub
             for the best tools in the rapidly evolving world of artificial
@@ -33,6 +34,13 @@ export default function AboutPage() {
             range of AI tools, providing you with a clear and organized platform
             to discover, compare, and learn.
           </p>
+        </div>
+
+        {/* New AIO Section integrated here */}
+        <AioSection />
+
+        <div className="article-content space-y-8 mt-16">
+          <h2 className="text-3xl font-bold font-headline">Our Community-Driven Approach</h2>
           <p>
             Beyond being just a directory, AI Tools Korner is a community-driven
             platform. We provide insightful articles, in-depth comparisons, and
