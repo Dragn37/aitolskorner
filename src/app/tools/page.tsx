@@ -10,7 +10,7 @@ const ToolGrid = dynamic(() => import('@/components/tool-grid'), {
       ))}
     </div>
   ),
-  ssr: false,
+  ssr: true,
 });
 
 export const metadata: Metadata = {
