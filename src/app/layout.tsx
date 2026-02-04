@@ -62,14 +62,13 @@ export const metadata: Metadata = {
     apple: 'https://storage.googleapis.com/studiopublic/atk-favicon.png',
   },
   verification: {
-    google: 'YOUR_VERIFICATION_CODE',
+    google: 'XyF7U7y05vNtwZZzMW-LBSrFrK4_Ys2LhCVlnosRH7c',
   },
   other: {
     'Content-Type': 'text/html; charset=utf-8',
     language: 'English',
     'revisit-after': '1 days',
   },
-  themeColor: '#000000',
 };
 
 export default function RootLayout({
@@ -144,10 +143,10 @@ export default function RootLayout({
         </div>
         <Toaster />
         <Script
-          async
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
         />
-        <Script id="ga-script">
+        <Script id="ga-script" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -155,7 +154,7 @@ export default function RootLayout({
             gtag('config', 'G-XXXXXXXXXX');
           `}
         </Script>
-        <Script id="clarity-script">
+        <Script id="clarity-script" strategy="lazyOnload">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

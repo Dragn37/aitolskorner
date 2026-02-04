@@ -1,5 +1,10 @@
 import type { Metadata } from 'next';
-import { AioSection } from '@/components/aio-section';
+import dynamic from 'next/dynamic';
+
+const AioSection = dynamic(() => import('@/components/aio-section').then(mod => mod.AioSection), {
+  loading: () => <div className="py-16 bg-muted/10 rounded-3xl border border-border/50 my-12 h-96 animate-pulse" />,
+  ssr: true,
+});
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -36,7 +41,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        {/* New AIO Section integrated here */}
+        {/* New AIO Section integrated here with dynamic import for performance */}
         <AioSection />
 
         <div className="article-content space-y-8 mt-16">
