@@ -451,6 +451,12 @@
       "imageHint": "dental ai"
     },
     {
+      "id": "article-image-claude-opus",
+      "description": "Thumbnail for Claude Opus 4.6 article",
+      "imageUrl": "https://images.unsplash.com/photo-1666430135220-4c54dd235db2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmV1cmFsJTIwcHJvY2Vzc29yfGVufDB8fHx8MTc3MDcwNTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neural processor"
+    },
+    {
       "id": "logo-writesonic",
       "description": "Writesonic logo",
       "imageUrl": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128",

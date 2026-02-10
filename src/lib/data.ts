@@ -6,6 +6,7 @@ import { NvideaArticle } from './articles/Nvidia-Halts-Reported-$100-Billion-Inv
 import { OpenClawArticle } from './articles/openclaw-moltbot-viral-phenomenon';
 import { OperatorArticle } from './articles/openai-operator-action-era';
 import { NerovetArticle } from './articles/nerovet-ai-dental';
+import { ClaudeOpusArticle } from './articles/claude-opus-4-6';
 
 const CATEGORIES: Category[] = [
   { slug: 'writing', name: 'Writing', description: 'Tools to assist with writing, editing, and content creation.' },
@@ -3400,6 +3401,18 @@ const tools: Tool[] = [
 
 
 const articles: Article[] = [
+  {
+    id: '8',
+    slug: 'claude-opus-4-6-speed-revolution',
+    title: ClaudeOpusArticle.title,
+    excerpt: ClaudeOpusArticle.description,
+    date: ClaudeOpusArticle.date,
+    author: ClaudeOpusArticle.author,
+    imageUrlId: 'article-image-claude-opus',
+    content: ClaudeOpusArticle.content,
+    tags: ['Breaking News', 'Anthropic', 'AI Agents'],
+    readTime: 8,
+  },
   {
     id: '7',
     slug: 'nerovet-ai-dental-analysis',
