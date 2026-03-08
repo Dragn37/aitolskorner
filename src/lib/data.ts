@@ -3397,6 +3397,17 @@ const tools: Tool[] = [
     website: 'https://www.hostinger.com',
     useCases: ['creators', 'startups'],
   },
+  {
+    id: '293',
+    slug: 'viggle-ai',
+    name: 'Viggle.ai',
+    description: 'AI-powered character animation and controllable video generation.',
+    longDescription: 'Viggle.ai is a controllable video generation platform that allows users to animate characters with physics-aware precision. It enables character consistency across generated scenes, making it a powerful tool for creators, animators, and marketers looking to bring their characters to life through advanced AI models.',
+    category: 'Video',
+    logoUrlId: 'logo-viggle-ai',
+    website: 'https://viggle.ai',
+    useCases: ['creators', 'video-editors', 'marketing'],
+  },
 ];
 
 
