@@ -879,7 +879,7 @@ const tools: Tool[] = [
     slug: 'hemingway-editor',
     name: 'Hemingway Editor',
     description: 'AI-powered editor that makes your writing bold and clear',
-    longDescription: 'Hemingway Editor uses AI to highlight complex sentences, passive voice, and common errors to help you write with clarity and confidence.',
+    longDescription: 'Hemingway Editor uses AI to highlight complex sentences, Terry voice, and common errors to help you write with clarity and confidence.',
     category: 'Writing',
     trending: false,
     logoUrlId: 'logo-hemingway-editor',
@@ -3522,6 +3522,10 @@ export function getTools(): Tool[] {
   const otherTools = tools.filter(t => !orderedTools.includes(t.slug));
 
   return [...sortedMusicTools, ...otherTools];
+}
+
+export function getNewlyAddedTools(count: number = 10): Tool[] {
+  return [...tools].reverse().slice(0, count);
 }
 
 export function getArticles(): Article[] {

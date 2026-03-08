@@ -2,10 +2,11 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 
-import { getTrendingTools, getLatestArticles } from '@/lib/data';
+import { getTrendingTools, getLatestArticles, getNewlyAddedTools } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import ToolCard from '@/components/tool-card';
 import ArticleCard from '@/components/article-card';
+import { NewlyAddedCarousel } from '@/components/newly-added-carousel';
 
 export const metadata: Metadata = {
   title: 'Best AI Tools 2026 | AI Tools Korner - Expert Reviews & Comparisons',
@@ -41,6 +42,7 @@ export const metadata: Metadata = {
 export default function Home() {
   const trendingTools = getTrendingTools();
   const latestArticles = getLatestArticles(3);
+  const newlyAddedTools = getNewlyAddedTools(15);
 
   return (
     <div>
@@ -71,6 +73,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
       <div className="container mx-auto px-4">
         <section className="py-16">
           <div className="flex justify-between items-center mb-8">
@@ -85,6 +88,24 @@ export default function Home() {
             {trendingTools.map((tool) => (
               <ToolCard key={tool.id} tool={tool} />
             ))}
+          </div>
+        </section>
+
+        {/* Newly Added Tools Section */}
+        <section className="py-16 border-y border-border/50 bg-muted/5 -mx-4 px-4 sm:mx-0 sm:px-0">
+          <div className="container">
+            <div className="flex justify-between items-center mb-8 px-4 sm:px-0">
+              <div>
+                <h2 className="text-3xl font-bold font-headline mb-2 text-primary">Newly Added Tools</h2>
+                <p className="text-muted-foreground">The latest additions to our directory, updated daily.</p>
+              </div>
+              <Button asChild variant="outline" size="sm" className="hidden sm:flex">
+                <Link href="/tools">
+                  Explore All <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <NewlyAddedCarousel tools={newlyAddedTools} />
           </div>
         </section>
 
